@@ -683,13 +683,13 @@ btc_type_motorized_armed = _allclasse select 6;
 btc_type_mg = _allclasse select 7;
 btc_type_gl = _allclasse select 8;
 
-btc_type_units = btc_type_units + ["rhsgref_tla_specialist_at", "rhsgref_tla_squadleader", "rhsgref_tla_crew", "rhsgref_tla_grenadier", "rhsgref_tla_grenadier_m79", "rhsgref_tla_rifleman", "rhsgref_tla_rifleman_akms", "rhsgref_tla_rifleman_l1a1", "rhsgref_tla_rifleman_m1", "rhsgref_tla_rifleman_m14", "rhsgref_tla_rifleman_M16", "rhsgref_tla_rifleman_pm63", "rhsgref_tla_rifleman_rpg75", "rhsgref_tla_rifleman_vz58", "rhsgref_tla_machinegunner", "rhsgref_tla_machinegunner_mg42", "rhsgref_tla_marksman_m14", "rhsgref_tla_mechanic", "rhsgref_tla_medic", "rhsgref_tla_saboteur", "rhsgref_tla_warlord"];
-btc_type_motorized = btc_type_motorized + ["rhsgref_tla_offroad", "rhsgref_tla_offroad_at", "rhsgref_tla_offroad_armed", "O_G_Van_01_transport_F", "O_G_Van_02_transport_F", "RHS_Ural_Ammo_VV_01", "RHS_Ural_Flat_VV_01", "RHS_Ural_Open_VV_01", "rhsgref_ins_uaz_spg9", "rhsgref_ins_uaz_dshkm", "rhs_tigr_m_msv", "RHS_UAZ_MSV_01", "rhs_uaz_open_MSV_01"];
-btc_type_motorized_armed = btc_type_motorized_armed + ["rhsgref_tla_btr60", "rhs_btr70_vv", "rhs_btr80_vv", "rhs_btr80a_vv", "RHS_BM21_VV_01", "RHS_Ural_Zu23_VV_01", "rhs_bmp2d_vv", "rhs_bmp2k_vv", "rhs_prp3_vv", "RHS_Mi8mt_vv", "RHS_Mi24V_vdv", "RHS_Su25SM_vvsc","rhsgref_BRDM2_msv"];
-btc_type_mg = btc_type_mg + ["rhsgref_tla_DSHKM_Mini_TriPod", "rhsgref_tla_DSHKM", "rhsgref_tla_2b14"];
+btc_type_units = btc_type_units + ["UK3CB_ADA_O_CREW", "UK3CB_ADA_O_JET_PILOT", "UK3CB_ADA_O_HELI_PILOT", "UK3CB_ADA_O_CREW_COMM"];
+//btc_type_motorized = btc_type_motorized + ["UK3CB_ADA_O_Datsun_Pickup_PKM", "UK3CB_ADA_O_LR_AGS3", "UK3CB_ADA_O_LR_M2", "UK3CB_ADA_O_LR_SPG9", "UK3CB_ADA_O_LR_SF_M2", "UK3CB_ADA_O_LR_SF_AGS30", "UK3CB_ADA_O_Pickup_DSHKM"];
+//btc_type_motorized_armed = btc_type_motorized_armed + ["UK3CB_ADA_O_T34", "UK3CB_ADA_O_T55", "UK3CB_ADA_O_T72A", "UK3CB_ADA_O_BMP1", "UK3CB_ADA_O_BMP2", "UK3CB_ADA_O_BTR80", "UK3CB_ADA_O_BTR40_MG", "UK3CB_ADA_O_BRDM2", "UK3CB_ADA_O_BRDM2_ATGM", "UK3CB_ADA_O_BTR60", "UK3CB_ADA_O_BTR70", "UK3CB_ADA_O_Ural_Zu23", "UK3CB_ADA_O_V3S_Zu23", "UK3CB_ADA_O_ZsuTank"];
+//btc_type_mg = btc_type_mg + ["UK3CB_ADA_O_D30", "UK3CB_ADA_O_2b14_82mm", "UK3CB_ADA_O_Igla_AA_pod", "UK3CB_ADA_O_AGS", "UK3CB_ADA_O_DSHKM", "UK3CB_ADA_O_M2_TriPod", "UK3CB_ADA_O_ZU23", "UK3CB_ADA_O_SPG9", "UK3CB_ADA_O_PKM_High"];
 
 //Sometimes you need to remove units: - ["Blabla","moreBlabla"];
-//Sometimes you need to add units: + ["Blabla","moreBlabla"];
+//Sometimes you need to add units: + ["Blabla","moreBlabla"]; 
 switch (_p_en) do {
     /*case "Myfactionexemple" : {
         btc_type_units = btc_type_units - ["Blabla","moreBlabla"];
@@ -700,15 +700,7 @@ switch (_p_en) do {
         btc_type_mg = btc_type_mg;
         btc_type_gl = btc_type_gl;
     };*/
-    case "OPF_G_F" : {
-        btc_type_motorized = btc_type_motorized + ["I_Truck_02_transport_F", "I_Truck_02_covered_F"];
-        btc_type_motorized_armed = btc_type_motorized_armed + ["I_Heli_light_03_F"];
-    };
-    case "IND_C_F" : {
-        btc_type_motorized = btc_type_motorized + ["I_G_Offroad_01_repair_F", "I_G_Offroad_01_F", "I_G_Quadbike_01_F", "I_G_Van_01_fuel_F", "I_Truck_02_transport_F", "I_Truck_02_covered_F"];
-        btc_type_motorized_armed = btc_type_motorized_armed + ["I_Heli_light_03_F", "I_G_Offroad_01_F"];
-        btc_type_units = btc_type_units - ["I_C_Soldier_Camo_F"];
-    };
+   
 };
 
 //Chem
@@ -767,4 +759,4 @@ btc_flag_textures = [
 btc_body_bagTicketPlayer = 1;
 btc_body_prisonerTicket = 3;
 
-btc_startDate = [2035, 6, 24, 12, 15];
+btc_startDate = [1990, 5, 17, 12, 15];

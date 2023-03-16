@@ -27,7 +27,7 @@ true
 ] call CBA_fnc_addClassEventHandler;
 
 //ECONOMY
-[west, btc_global_reputation, [["rhsusf_m1151_mk19_v2_usarmy_wd", 800],["RHS_UH1Y_UNARMED",1000],["rhsusf_m1151_m2_v2_usarmy_wd", 400],["fza_ah64d_b2e", 4000],["RHS_M6_wd", 1600],["RHS_M2A3_BUSKI_wd", 2000],["RHS_MELB_AH6M", 1600],["rhsusf_m1240a1_m2crows_usarmy_wd",1000],["rhsusf_M1220_M153_M2_usarmy_wd",1200],["rhsusf_m1045_d",600],["B_T_APC_Wheeled_01_cannon_F",3000]]] call acex_fortify_fnc_registerObjects;
+[west, btc_global_reputation, [["rhsusf_m1043_d_mk19", 800],["UK3CB_CW_US_B_LATE_UH1H_M240",1000],["rhsusf_m1043_d_m2", 400],["fza_ah64d_b2e_nr", 4000],["RHS_M6", 800],["RHS_M2A2", 2000],["RHS_MELB_AH6M", 1600],["rhsusf_m113d_usarmy_M240",1000],["rhsusf_m113d_usarmy_MK19",1200],["rhsusf_m1045_d",600],["RHS_UH60M_d",800],["RHS_M119_D",800],["rhsusf_m109d_usarmy",1000]]] call acex_fortify_fnc_registerObjects;
 
 
 
