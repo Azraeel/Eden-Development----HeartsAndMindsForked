@@ -27,8 +27,19 @@ class RscTitles {
 
 #include "core\fnc\task\taskTypes.hpp"
 
-class CfgFunctions {
-    // add your own functions below
+class CfgFunctions
+{
+	#include "INC_airPower\cfgFunctions.hpp"
+};
+
+class CfgRemoteExec
+{
+   class Functions
+   {
+       mode = 2;
+       jip = 1;
+       #include "INC_airPower\functionsWhitelist.hpp"
+   };
 };
 
 // CBA XEH
