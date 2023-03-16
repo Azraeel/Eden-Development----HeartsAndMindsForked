@@ -404,19 +404,20 @@ force force aceP_circulation_timeLimit_AEDX = 1800;
 force force aceP_circulation_useLocation_AED = 0;
 
 // ACE Pharmacy - Fractures
-force force aceP_circulation_closedLocation = 0;
-force force aceP_circulation_closedReduction = 1;
-force force aceP_circulation_closedTime = 10;
-force force aceP_circulation_compoundChance = 0;
-force force aceP_circulation_enable_fracture = true;
-force force aceP_circulation_etomidateTime = 45;
-force force aceP_circulation_fractureCheck_Level = 0;
-force force aceP_circulation_incisionTime = 10;
-force force aceP_circulation_openTime = 15;
-force force aceP_circulation_simpleChance = 50;
-force force aceP_circulation_surgicalAction = 1;
-force force aceP_circulation_surgicalLocation = 0;
-force force aceP_circulation_surgicalTime = 8;
+force aceP_circulation_closedLocation = 3;
+force aceP_circulation_closedReduction = 1;
+force aceP_circulation_closedTime = 10;
+force aceP_circulation_compoundChance = 30;
+force aceP_circulation_enable_fracture = true;
+force aceP_circulation_etomidateTime = 45;
+force aceP_circulation_fractureCheck_Level = 0;
+force aceP_circulation_incisionTime = 10;
+force aceP_circulation_openTime = 15;
+force aceP_circulation_simpleChance = 60;
+force aceP_circulation_surgicalAction = 1;
+force aceP_circulation_surgicalLocation = 3;
+force aceP_circulation_surgicalTime = 8;
+
 
 // ACE Pharmacy - Medications
 force force aceP_circulation_aiEnableAdvanced = false;
