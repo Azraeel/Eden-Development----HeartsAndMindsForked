@@ -79,8 +79,3 @@ WHITELISTED = [
 if (player getVariable ["Reserved", false]) then {
     if !(getplayerUID player in WHITELISTED) then {"end1" call BIS_fnc_endMission;};
 };
-
-//Incon Airpower
-[player,"initPlayer"] call APW_fnc_APWMain;
-
-player setVariable ["APW_initRadioTrig",true];

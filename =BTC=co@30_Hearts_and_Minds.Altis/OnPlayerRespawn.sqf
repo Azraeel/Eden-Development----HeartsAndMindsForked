@@ -7,3 +7,9 @@
         [_box, player] call roleArsenal;
     };
 } forEach ARSENAL_CRATES;
+
+
+//Incon Airpower
+[player,"initPlayer"] call APW_fnc_APWMain;
+
+player setVariable ["APW_initRadioTrig",true];
