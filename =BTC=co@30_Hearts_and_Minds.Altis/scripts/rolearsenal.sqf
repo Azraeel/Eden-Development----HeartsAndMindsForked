@@ -187,6 +187,8 @@ roleArsenal = {
 "tfw_rf3080Item",
 "ToolKit",
 "ACE_DefusalKit",
+"ace_marker_flags_red",
+"ace_marker_flags_green",
 //TERMINAL
 "ItemGPS",
 "ItemAndroid",
@@ -283,6 +285,7 @@ roleArsenal = {
 "ACE_MX2A",
 "rhsusf_bino_leopold_mk4",
 "Laserdesignator",
+"Laserbatteries",
 //RADIO
 //GRENADE
 //EXPLOSIVES
@@ -541,6 +544,8 @@ roleArsenal = {
 "UK3CB_M16A1_LSW", "rhs_mag_30Rnd_556x45_M855_Stanag", "rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red", "ACE_30Rnd_556x45_Stanag_M995_AP_mag", "a3cn_anpvs4", "a3cn_m68cco", "rhsusf_acc_acog_usmc", 
 //SECONDARY
 //LAUNCHER
+"rhs_weap_maaws",
+"rhs_optic_maaws",
 "rhs_weap_fim92","rhs_fim92_mag",
 "rhs_weap_M136",
 "rhs_weap_M136_hedp",
