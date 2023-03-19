@@ -188,7 +188,11 @@ if (btc_p_respawn_ticketsAtStart >= 0) then {
 "RHS_UH60M_d",
 // Medical Vehicle
 "UK3CB_CW_US_B_LATE_UH1H_MED", 
-"rhsusf_m113d_usarmy_medical"
+"rhsusf_m113d_usarmy_medical",
+// HELI ATTACK
+"RHS_MELB_AH6M",
+"fza_ah64d_b2e_nr",
+"UK3CB_CW_US_B_LATE_UH1H_GUNSHIP"
 ]; // CONFIG - Vehicle ACE Cargo size
 
 //Small 

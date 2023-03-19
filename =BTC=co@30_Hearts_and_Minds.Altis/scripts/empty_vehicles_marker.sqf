@@ -48,7 +48,8 @@ _vehtomark = [
 "RHS_CH_47F_10",
 // HELI ATTACK
 "RHS_MELB_AH6M",
-"fza_ah64d_b2e_nr"
+"fza_ah64d_b2e_nr",
+"UK3CB_CW_US_B_LATE_UH1H_GUNSHIP"
 ];
 
 
