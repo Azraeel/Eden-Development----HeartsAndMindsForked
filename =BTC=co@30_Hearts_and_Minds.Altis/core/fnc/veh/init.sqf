@@ -56,6 +56,7 @@ switch true do {
 
         _type call btc_flag_fnc_int;
     };
+    {_x addCuratorEditableObjects [_type, false];} forEach allCurators;
     case (_type isKindOf "Plane") : {
         _type call btc_tow_fnc_int;
     };

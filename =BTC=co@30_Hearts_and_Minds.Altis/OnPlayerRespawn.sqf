@@ -8,6 +8,7 @@
     };
 } forEach ARSENAL_CRATES;
 
+{_x addCuratorEditableObjects [player, false];} forEach allCurators;
 
 //Incon Airpower
 [player,"initPlayer"] call APW_fnc_APWMain;
