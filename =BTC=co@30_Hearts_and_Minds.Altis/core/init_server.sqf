@@ -103,7 +103,6 @@ if isServer then
 		{
 			{
 				_x removeCuratorEditableObjects [[btc_create_object_point, btc_create_object, btc_gear_object],true]
-                _x addCuratorEditableObjects [[btc_vehicles, allPlayers], true];
 			} count allCurators;
         sleep 0.25;
 		};
