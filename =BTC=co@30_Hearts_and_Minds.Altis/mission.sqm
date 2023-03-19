@@ -12,14 +12,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=488;
+		nextID=494;
 	};
 	class Camera
 	{
-		pos[]={1507.6055,112.46774,8104.1265};
-		dir[]={0.33975258,-0.91326046,-0.22491357};
-		up[]={0.76154494,0.40731099,-0.50413716};
-		aside[]={-0.55201858,3.9348379e-008,-0.83387512};
+		pos[]={1546.1139,49.651436,8067.2871};
+		dir[]={0.33388728,-0.80654532,0.48793};
+		up[]={0.45552069,0.59108126,0.66567969};
+		aside[]={0.82530868,1.4643592e-007,-0.56475234};
 	};
 };
 binarizationWanted=0;
@@ -101,7 +101,7 @@ addons[]=
 	"rhssaf_c_weapons",
 	"ace_grenades",
 	"ace_field_rations",
-	"A3_Weapons_F_Tank",
+	"Blastcore_MainCore",
 	"UK3CB_Factions_Weapons_MP5",
 	"UK3CB_Factions_Weapons_Accessories",
 	"A3_Structures_F_Mil_Fortification",
@@ -527,10 +527,8 @@ class AddonsMetaData
 		};
 		class Item61
 		{
-			className="A3_Weapons_F_Tank";
-			name="Arma 3 Tank - Weapons and Accessories";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
+			className="Blastcore_MainCore";
+			name="Blastcore_MainCore";
 		};
 		class Item62
 		{
@@ -34745,6 +34743,7 @@ class Mission
 							};
 							id=2614;
 							type="UK3CB_B_MTVR_Open_DES";
+							atlOffset=-1.5258789e-005;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -34812,6 +34811,7 @@ class Mission
 							};
 							id=3600;
 							type="rhsusf_M1078A1R_SOV_M2_D_fmtv_socom";
+							atlOffset=-3.8146973e-006;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -35142,7 +35142,7 @@ class Mission
 						};
 					};
 					id=1754;
-					atlOffset=0.024585724;
+					atlOffset=0.009552002;
 				};
 				class Item8
 				{
@@ -46481,7 +46481,7 @@ class Mission
 												isBackpack=1;
 												class MagazineCargo
 												{
-													items=4;
+													items=5;
 													class Item0
 													{
 														name="kat_Painkiller";
@@ -46502,8 +46502,14 @@ class Mission
 													};
 													class Item3
 													{
-														name="MRAWS_HEAT_F";
-														count=2;
+														name="rhs_mag_maaws_HEAT";
+														count=1;
+														ammoLeft=1;
+													};
+													class Item4
+													{
+														name="rhs_mag_maaws_HEDP";
+														count=1;
 														ammoLeft=1;
 													};
 												};
@@ -47581,7 +47587,7 @@ class Mission
 												isBackpack=1;
 												class MagazineCargo
 												{
-													items=4;
+													items=5;
 													class Item0
 													{
 														name="kat_Painkiller";
@@ -47602,8 +47608,14 @@ class Mission
 													};
 													class Item3
 													{
-														name="MRAWS_HEAT_F";
-														count=2;
+														name="rhs_mag_maaws_HEAT";
+														count=1;
+														ammoLeft=1;
+													};
+													class Item4
+													{
+														name="rhs_mag_maaws_HEDP";
+														count=1;
 														ammoLeft=1;
 													};
 												};
@@ -49331,7 +49343,7 @@ class Mission
 												isBackpack=1;
 												class MagazineCargo
 												{
-													items=4;
+													items=5;
 													class Item0
 													{
 														name="kat_Painkiller";
@@ -49352,8 +49364,14 @@ class Mission
 													};
 													class Item3
 													{
-														name="MRAWS_HEAT_F";
-														count=2;
+														name="rhs_mag_maaws_HEAT";
+														count=1;
+														ammoLeft=1;
+													};
+													class Item4
+													{
+														name="rhs_mag_maaws_HEDP";
+														count=1;
 														ammoLeft=1;
 													};
 												};
@@ -50431,7 +50449,7 @@ class Mission
 												isBackpack=1;
 												class MagazineCargo
 												{
-													items=4;
+													items=5;
 													class Item0
 													{
 														name="kat_Painkiller";
@@ -50452,8 +50470,14 @@ class Mission
 													};
 													class Item3
 													{
-														name="MRAWS_HEAT_F";
-														count=2;
+														name="rhs_mag_maaws_HEAT";
+														count=1;
+														ammoLeft=1;
+													};
+													class Item4
+													{
+														name="rhs_mag_maaws_HEDP";
+														count=1;
 														ammoLeft=1;
 													};
 												};
@@ -52674,7 +52698,7 @@ class Mission
 												isBackpack=1;
 												class MagazineCargo
 												{
-													items=4;
+													items=5;
 													class Item0
 													{
 														name="kat_Painkiller";
@@ -52695,8 +52719,14 @@ class Mission
 													};
 													class Item3
 													{
-														name="MRAWS_HEAT_F";
-														count=2;
+														name="rhs_mag_maaws_HEAT";
+														count=1;
+														ammoLeft=1;
+													};
+													class Item4
+													{
+														name="rhs_mag_maaws_HEDP";
+														count=1;
 														ammoLeft=1;
 													};
 												};
@@ -53286,7 +53316,7 @@ class Mission
 												isBackpack=1;
 												class MagazineCargo
 												{
-													items=4;
+													items=5;
 													class Item0
 													{
 														name="kat_Painkiller";
@@ -53307,8 +53337,14 @@ class Mission
 													};
 													class Item3
 													{
-														name="MRAWS_HEAT_F";
-														count=2;
+														name="rhs_mag_maaws_HEAT";
+														count=1;
+														ammoLeft=1;
+													};
+													class Item4
+													{
+														name="rhs_mag_maaws_HEDP";
+														count=1;
 														ammoLeft=1;
 													};
 												};
@@ -65802,7 +65838,7 @@ class Mission
 				};
 			};
 			id=1743;
-			atlOffset=0.062988281;
+			atlOffset=0.062992096;
 		};
 		class Item1
 		{
