@@ -36,7 +36,7 @@ private _failNotify = [
 if (_array isEqualTo []) exitWith {_failNotify call CBA_fnc_notify;};
 
 private _fuelSource = _array select 0;
-private _default_fuelCargo = getNumber (configOf _fuelSource >> "ace_refuel_fuelCargo");
+private _default_rearmCargo = _rearmSource getVariable ["btc_EDEN_defaultSupply", _rearmSource call ace_rearm_fnc_getSupplyCount];
 
 if (_default_fuelCargo <= 0) exitWith {_failNotify call CBA_fnc_notify;};
 
