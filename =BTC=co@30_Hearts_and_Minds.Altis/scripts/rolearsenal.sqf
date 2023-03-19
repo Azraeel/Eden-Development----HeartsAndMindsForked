@@ -449,7 +449,7 @@ roleArsenal = {
 "B_simc_pack_alice_flak_frame_rajio",
 "B_simc_rajio_gasbag_flak_2",
 "B_simc_rajio_gasbag_flak_1",
-"UK3CB_B_Invisible"
+"UK3CB_B_Invisible",
 //FACEWARE
 //NVG
 //BINOCULARS
@@ -493,10 +493,9 @@ roleArsenal = {
 "kat_Carbonate"
 //MISC ITEMS
 //TERMINAL
+];
 
-	];
-
-	Private _AUTORIFLEMAN = [
+Private _AUTORIFLEMAN = [
 //PRIMARY
 "UK3CB_M60", "rhsusf_100Rnd_762x51", "rhsusf_100Rnd_762x51_m62_tracer", "rhsusf_100Rnd_762x51_m61_ap",
 "rhs_weap_m240G", "rhsusf_100Rnd_762x51", "rhsusf_100Rnd_762x51_m62_tracer", "rhsusf_100Rnd_762x51_m61_ap", "rhsusf_acc_acog_mdo", "rhsusf_acc_acog_rmr",
