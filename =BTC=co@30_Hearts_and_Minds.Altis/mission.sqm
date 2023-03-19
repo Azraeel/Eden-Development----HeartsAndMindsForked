@@ -12,14 +12,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=494;
+		nextID=500;
 	};
 	class Camera
 	{
-		pos[]={1546.1139,49.651436,8067.2871};
-		dir[]={0.33388728,-0.80654532,0.48793};
-		up[]={0.45552069,0.59108126,0.66567969};
-		aside[]={0.82530868,1.4643592e-007,-0.56475234};
+		pos[]={1523.0408,105.95998,8018.6768};
+		dir[]={0.054826614,-0.77910918,0.6245448};
+		up[]={0.068140656,0.62679625,0.77620125};
+		aside[]={0.99620908,2.1133928e-007,-0.08745344};
 	};
 };
 binarizationWanted=0;
@@ -101,7 +101,6 @@ addons[]=
 	"rhssaf_c_weapons",
 	"ace_grenades",
 	"ace_field_rations",
-	"Blastcore_MainCore",
 	"UK3CB_Factions_Weapons_MP5",
 	"UK3CB_Factions_Weapons_Accessories",
 	"A3_Structures_F_Mil_Fortification",
@@ -117,7 +116,7 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=69;
+		items=68;
 		class Item0
 		{
 			className="A3_Ui_F";
@@ -527,50 +526,45 @@ class AddonsMetaData
 		};
 		class Item61
 		{
-			className="Blastcore_MainCore";
-			name="Blastcore_MainCore";
-		};
-		class Item62
-		{
 			className="A3_Supplies_F_Heli";
 			name="Arma 3 Helicopters - Ammoboxes and Supplies";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item63
+		class Item62
 		{
 			className="ace_rearm";
 			name="ACE3 - Rearm";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item64
+		class Item63
 		{
 			className="ace_refuel";
 			name="ACE3 - Refuel";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item65
+		class Item64
 		{
 			className="ace_repair";
 			name="ACE3 - Repair";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item66
+		class Item65
 		{
 			className="CUP_CAMisc";
 			name="CUP_CAMisc";
 		};
-		class Item67
+		class Item66
 		{
 			className="ace_fortify";
 			name="ace_fortify";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item68
+		class Item67
 		{
 			className="A3_Modules_F_Curator";
 			name="Arma 3 Zeus Update - Scripted Modules";
