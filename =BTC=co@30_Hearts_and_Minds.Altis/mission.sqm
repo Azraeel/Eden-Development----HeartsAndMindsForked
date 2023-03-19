@@ -4607,7 +4607,7 @@ class CustomAttributes
 																			class data
 																			{
 																				singleType="STRING";
-																				value="tf47_m3maaws";
+																				value="rhs_mag_maaws_HEAT";
 																			};
 																		};
 																		class Item1
@@ -4631,7 +4631,7 @@ class CustomAttributes
 																			class data
 																			{
 																				singleType="STRING";
-																				value="tf47_optic_m3maaws";
+																				value="rhs_mag_maaws_HEAT";
 																			};
 																		};
 																		class Item4
@@ -4647,7 +4647,7 @@ class CustomAttributes
 																						class data
 																						{
 																							singleType="STRING";
-																							value="tf47_m3maaws_HEAT";
+																							value="rhs_mag_maaws_HEAT";
 																						};
 																					};
 																					class Item1
@@ -5519,7 +5519,7 @@ class CustomAttributes
 																									class data
 																									{
 																										singleType="STRING";
-																										value="tf47_m3maaws_HE";
+																										value="rhs_mag_maaws_HEAT";
 																									};
 																								};
 																								class Item1
