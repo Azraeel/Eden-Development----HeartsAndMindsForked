@@ -460,7 +460,6 @@ roleArsenal = {
 "kat_IV_16",
 "ACE_adenosine",
 "kat_AED",
-"kat_X_AED",
 "ACE_bloodIV",
 "ACE_bloodIV_250",
 "ACE_bloodIV_500",
@@ -550,6 +549,9 @@ roleArsenal = {
 "rhs_weap_M136",
 "rhs_weap_M136_hedp",
 "rhs_weap_M136_hp",
+"rhs_mag_maaws_HEAT",
+"rhs_mag_maaws_HEDP",
+"rhs_mag_maaws_HE",
 //HELM
 "H_Simc_pasgt_desu_b",
 "H_Simc_pasgt_desu_SWDG_low_b",
