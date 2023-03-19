@@ -35,7 +35,10 @@ true
   params ["_player", "_side", "_objectPlaced"];
     _objectPlaced call btc_veh_fnc_add;
     btc_global_reputation = [west] call acex_fortify_fnc_getBudget;
+    clearWeaponCargoGlobal _objectPlaced;
     clearItemCargoGlobal _objectPlaced;
+    clearMagazineCargoGlobal _objectPlaced;
+    clearBackpackCargoGlobal _objectPlaced;
 }] call CBA_fnc_addEventHandler;
 
 ["acex_fortify_objectDeleted", {
