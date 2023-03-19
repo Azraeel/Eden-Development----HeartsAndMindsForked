@@ -330,6 +330,7 @@ roleArsenal = {
 "ACE_MX2A",
 "rhsusf_bino_leopold_mk4",
 "Laserdesignator",
+"Laserbatteries",
 //RADIO
 //GRENADE
 //EXPLOSIVES
@@ -453,6 +454,41 @@ roleArsenal = {
 //GRENADE
 //EXPLOSIVES
 //MEDICAL
+"kat_IV_16",
+"ACE_adenosine",
+"kat_AED",
+"kat_X_AED",
+"ACE_bloodIV",
+"ACE_bloodIV_250",
+"ACE_bloodIV_500",
+"kat_plate",
+"kat_clamp",
+"kat_vacuum",
+"ACE_epinephrine",
+"kat_etomidate",
+"kat_IO_FAST",
+"kat_flumazenil",
+"kat_lidocaine",
+"kat_lorazepam",
+"ACE_morphine",
+"kat_naloxone",
+"kat_nitroglycerin",
+"kat_norepinephrine",
+"ACE_personalAidKit",
+"kat_phenylephrine",
+"kat_phenylephrine_inject",
+"ACE_plasmaIV",
+"ACE_plasmaIV_250",
+"ACE_plasmaIV_500",
+"kat_retractor",
+"ACE_salineIV",
+"ACE_salineIV_250",
+"ACE_salineIV_500",
+"kat_scalpel",
+"ACE_splint",
+"ACE_surgicalKit",
+"kat_TXA",
+"kat_Carbonate"
 //MISC ITEMS
 //TERMINAL
 
@@ -505,11 +541,7 @@ roleArsenal = {
 "UK3CB_M16A1_LSW", "rhs_mag_30Rnd_556x45_M855_Stanag", "rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red", "ACE_30Rnd_556x45_Stanag_M995_AP_mag", "a3cn_anpvs4", "a3cn_m68cco", "rhsusf_acc_acog_usmc", 
 //SECONDARY
 //LAUNCHER
-"tf47_at4_heat",
-"tf47_at4_HEDP",
 "rhs_weap_fim92","rhs_fim92_mag",
-"tf47_at4_HP",
-"tf47_m3maaws","tf47_m3maaws_HE","tf47_m3maaws_SMOKE","tf47_m3maaws_HEDP","tf47_m3maaws_ILLUM","tf47_m3maaws_HEAT","tf47_optic_m3maaws",
 "rhs_weap_M136",
 "rhs_weap_M136_hedp",
 "rhs_weap_M136_hp",
@@ -547,7 +579,7 @@ roleArsenal = {
 
   Private _GRENADIER = [
 //PRIMARY
-"UK3CB_M16A2_UGL", "rhs_mag_30Rnd_556x45_M855_Stanag", "rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red", "ACE_30Rnd_556x45_Stanag_M995_AP_mag", "rhs_mag_M433_HEDP", "rhs_mag_M397_HET", "rhs_mag_M441_HE", "rhs_mag_m576", "ACE_40mm_Flare_white", "rhs_mag_m713_Red", "rhs_mag_m714_White", "rhs_mag_m715_Green", "rhs_mag_m716_yellow", "ACE_40mm_Flare_ir",
+"UK3CB_M16A2_UGL", "rhs_mag_30Rnd_556x45_M855_Stanag", "rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red", "ACE_30Rnd_556x45_Stanag_M995_AP_mag", "rhs_mag_M433_HEDP", "rhs_mag_M397_HET", "rhs_mag_M441_HE", "rhs_mag_m576", "ACE_40mm_Flare_white", "rhs_mag_m713_Red", "rhs_mag_m714_White", "rhs_mag_m715_Green", "rhs_mag_m716_yellow", "ACE_40mm_Flare_ir", "a3cn_anpvs4", "a3cn_m68cco", "rhsusf_acc_acog_usmc", "rhsusf_acc_rx01_nofilter",
 "rhs_weap_m79", "rhs_mag_M433_HEDP", "rhs_mag_M397_HET", "rhs_mag_M441_HE", "rhs_mag_m576", "ACE_40mm_Flare_white", "rhs_mag_m713_Red", "rhs_mag_m714_White", "rhs_mag_m715_Green", "rhs_mag_m716_yellow", "ACE_40mm_Flare_ir",
 //SECONDARY
 //LAUNCHER
