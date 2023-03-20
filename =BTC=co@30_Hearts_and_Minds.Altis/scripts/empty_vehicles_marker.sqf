@@ -60,7 +60,7 @@ while { true } do {
 
     _markedveh = [];
     {
-        if (alive _x && (typeof _x) in _vehtomark && (_x distance2d btc_gear_object) > 500 && (count (crew _x)) == 0) then {
+        if (alive _x && (typeof _x) in _vehtomark && (_x distance2d btc_gear_object) > 250 && (count (crew _x)) == 0) then {
             _markedveh pushback _x;
         };
     } foreach vehicles;
@@ -75,6 +75,7 @@ while { true } do {
             _marker setMarkerTypeLocal "mil_dot";
             _marker setMarkerSizeLocal [ 0.75, 0.75 ];
             _vehmarkers pushback _marker;
+
         } foreach _markedveh;
     };
 
@@ -84,6 +85,10 @@ while { true } do {
         _marker setMarkerTextLocal  (getText (_cfg >> typeOf _x >> "displayName"));
 
     } foreach _markedveh;
+
+    {
+		_x addCuratorEditableObjects [_markedveh, true];
+    } count allCurators;
 
     sleep 15;
 };
