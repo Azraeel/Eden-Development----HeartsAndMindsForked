@@ -86,9 +86,5 @@ while { true } do {
 
     } foreach _markedveh;
 
-    {
-		_x addCuratorEditableObjects [_markedveh, true];
-    } count allCurators;
-
     sleep 15;
 };
