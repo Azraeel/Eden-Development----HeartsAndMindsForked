@@ -67,4 +67,7 @@ if (btc_debug) then {
     [format ["%1 to %2. Malus: %3", _classname, typeOf _to, _malus], __FILE__, [btc_debug, false]] call btc_debug_fnc_message;
 };
 
+//TEMP TET
+[format ["%1 to %2. Malus: %3", _classname, typeOf _to, _malus], __FILE__, [btc_debug, false]] call btc_debug_fnc_message;
+
 _malus call btc_rep_fnc_change;

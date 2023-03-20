@@ -47,6 +47,10 @@ if (isPlayer _instigator) then {
         };
     };
 
+
+    // TEMP TET 
+    [format ["GREP %1 THIS = %2", btc_global_reputation, _this], __FILE__, [false]] call btc_debug_fnc_message;
+
     if (btc_debug_log) then {
         [format ["GREP %1 THIS = %2", btc_global_reputation, _this], __FILE__, [false]] call btc_debug_fnc_message;
     };

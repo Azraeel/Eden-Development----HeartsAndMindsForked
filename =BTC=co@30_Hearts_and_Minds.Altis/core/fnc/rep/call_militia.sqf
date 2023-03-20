@@ -36,6 +36,9 @@ if (_hideouts isNotEqualTo []) then {
     if (_hideouts isNotEqualTo []) then {_start_pos = selectRandom _hideouts};
 };
 
+//TEMP TET
+[format ["_start_pos : %1 (HIDEOUTS)", _start_pos], __FILE__, [false]] call btc_debug_fnc_message;
+
 if (btc_debug_log) then {
     [format ["_start_pos : %1 (HIDEOUTS)", _start_pos], __FILE__, [false]] call btc_debug_fnc_message;
 };
