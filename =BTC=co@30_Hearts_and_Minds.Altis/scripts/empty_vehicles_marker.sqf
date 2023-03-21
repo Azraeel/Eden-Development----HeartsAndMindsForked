@@ -66,18 +66,6 @@ while { true } do {
         };
     } foreach vehicles;
 
-    // ADD TO CURATOR
-    _markedveh1 = [];
-    {
-        if (alive _x && (typeof _x) in _vehtomark) then {
-            _markedveh1 pushback _x;
-        };
-    } foreach vehicles;
-    {
-        _x addCuratorEditableObjects [_markedveh1, true];
-    } count allCurators;
-    // CURRATOR END 
-
     if ( count _markedveh != count _vehmarkers ) then {
         { deleteMarkerLocal _x; } foreach _vehmarkers;
         _vehmarkers = [];

@@ -37,7 +37,7 @@ if (_hideouts isNotEqualTo []) then {
 };
 
 //TEMP TET
-[format ["_start_pos : %1 (HIDEOUTS)", _start_pos], __FILE__, [false]] call btc_debug_fnc_message;
+[format ["_start_pos : %1 (HIDEOUTS)", _start_pos], "REP: ", [true, true, true]] call CBA_fnc_debug;
 
 if (btc_debug_log) then {
     [format ["_start_pos : %1 (HIDEOUTS)", _start_pos], __FILE__, [false]] call btc_debug_fnc_message;

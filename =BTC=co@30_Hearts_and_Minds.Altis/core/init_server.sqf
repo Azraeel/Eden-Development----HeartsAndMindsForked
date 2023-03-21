@@ -101,11 +101,13 @@ if isServer then
 		{
 			{
 				_x addCuratorEditableObjects [allPlayers, true];
+                _x addCuratorEditableObjects [btc_vehicles, true];
 			} count allCurators;
         sleep 60;
 		};
 	};
 };
+
 
 //EDEN - Object Protector
 if isServer then
