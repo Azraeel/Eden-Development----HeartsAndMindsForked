@@ -102,6 +102,7 @@ if isServer then
 			{
 				_x addCuratorEditableObjects [allPlayers, true];
                 _x addCuratorEditableObjects [btc_vehicles, true];
+                _x addCuratorEditableObjects [btc_veh_respawnable, true];
 			} count allCurators;
         sleep 60;
 		};

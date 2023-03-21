@@ -59,7 +59,7 @@ if !(isServer) exitWith {
 if (btc_global_reputation < btc_rep_level_normal + 100) then {[getPos _unit] call btc_rep_fnc_eh_effects;};
 
 // TEMP TET 
-[format ["REP HD = GREP %1 THIS = %2", btc_global_reputation, _this], "REP: ", [true, true, true]] call CBA_fnc_debug;
+//[format ["REP HD = GREP %1 THIS = %2", btc_global_reputation, _this], "REP: ", [true, true, true]] call CBA_fnc_debug;
 
 if (btc_debug_log) then {
     [format ["REP HD = GREP %1 THIS = %2", btc_global_reputation, _this], __FILE__, [false]] call btc_debug_fnc_message;

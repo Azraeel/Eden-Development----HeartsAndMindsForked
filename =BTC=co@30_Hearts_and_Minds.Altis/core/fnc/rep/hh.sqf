@@ -28,7 +28,7 @@ if (isPlayer _healer) then {
     [btc_rep_bonus_civ_hh, _healer] call btc_rep_fnc_change;
 
 //TEMP TET 
-[format ["GREP %1 THIS = %2", btc_global_reputation, _this], "REP: ", [true, true, true]] call CBA_fnc_debug;
+//[format ["GREP %1 THIS = %2", btc_global_reputation, _this], "REP: ", [true, true, true]] call CBA_fnc_debug;
 
     if (btc_debug_log) then {
         [format ["GREP %1 THIS = %2", btc_global_reputation, _this], __FILE__, [false]] call btc_debug_fnc_message;
