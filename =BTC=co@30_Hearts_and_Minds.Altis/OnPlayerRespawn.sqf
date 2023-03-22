@@ -10,5 +10,3 @@
 
 //Incon Airpower
 [player,"initPlayer"] call APW_fnc_APWMain;
-
-player setVariable ["APW_initAddaction",true];
