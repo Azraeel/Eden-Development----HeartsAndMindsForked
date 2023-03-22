@@ -36,6 +36,9 @@ if (_hideouts isNotEqualTo []) then {
     if (_hideouts isNotEqualTo []) then {_start_pos = selectRandom _hideouts};
 };
 
+//TEMP TET
+//[format ["_start_pos : %1 (HIDEOUTS)", _start_pos], "REP: ", [true, true, true]] call CBA_fnc_debug;
+
 if (btc_debug_log) then {
     [format ["_start_pos : %1 (HIDEOUTS)", _start_pos], __FILE__, [false]] call btc_debug_fnc_message;
 };
@@ -62,11 +65,7 @@ if ((random 1) > _ratio) then { //MOT
 } else { //INF
     [_start_pos, _pos, 0, "", "WEDGE"] call btc_mil_fnc_send;
 
-//TEMP TET DEBUG
-[format ["MILITIA CALLED %1", _group],, "REP: ", [true, true, true]] call CBA_fnc_debug;
-
     if (btc_debug_log) then {
         [format ["INF %1", _group], __FILE__, [false]] call btc_debug_fnc_message;
     };
 };
-[format ["INF %1", _group],, "REP: ", [true, true, true]] call CBA_fnc_debug;

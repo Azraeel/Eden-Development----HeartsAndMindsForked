@@ -68,6 +68,6 @@ if (btc_debug) then {
 };
 
 //TEMP TET
-[format ["Building Damage to %1", _classname, typeOf _to, _malus], "REP: ", [true, true, true]] call CBA_fnc_debug;
+//[format ["%1 to %2. Malus: %3", _classname, typeOf _to, _malus], "REP: ", [true, true, true]] call CBA_fnc_debug;
 
 _malus call btc_rep_fnc_change;
