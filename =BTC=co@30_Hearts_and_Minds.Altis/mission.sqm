@@ -12,14 +12,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=512;
+		nextID=506;
 	};
 	class Camera
 	{
-		pos[]={1407.6075,361.02176,8046.1772};
-		dir[]={0.54271817,-0.83938849,-0.030470541};
-		up[]={0.83809853,0.5434863,-0.047053672};
-		aside[]={-0.056057926,7.2005241e-007,-0.99844497};
+		pos[]={1571.8174,93.288315,8056.1836};
+		dir[]={-0.153621,-0.74135792,0.65329093};
+		up[]={-0.1697012,0.67110986,0.72167379};
+		aside[]={0.97344851,7.4505806e-009,0.22890589};
 	};
 };
 binarizationWanted=0;
@@ -41526,7 +41526,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={1573.2257,38.229195,8153.6714};
-								angles[]={0,3.2730169,0.0075011365};
+								angles[]={-0,3.2730169,0.0075011365};
 							};
 							side="Empty";
 							flags=4;
@@ -41864,7 +41864,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={1541.6449,37.89645,8113.1255};
-								angles[]={0,3.2738934,0.0099949092};
+								angles[]={-0,3.2738934,0.0099949092};
 							};
 							side="Empty";
 							flags=4;
@@ -44546,7 +44546,7 @@ class Mission
 									class Attributes
 									{
 										rank="CAPTAIN";
-										init="call{group this setgroupid [""CROSSROADS""];};" \n "this setVariable [""side_mission"",true];" \n "this setVariable [""interpreter"",true];" \n "this setVariable [""APW_initAddaction"",true];";
+										init="call{group this setgroupid [""CROSSROADS""];};" \n "this setVariable [""side_mission"",true];" \n "this setVariable [""interpreter"",true];" \n "player setVariable [""APW_initAddaction"",true];";
 										description="Company Commander @ CROSSROADS";
 										isPlayable=1;
 										class Inventory
@@ -44882,7 +44882,7 @@ class Mission
 									class Attributes
 									{
 										rank="SERGEANT";
-										init="this setVariable [""interpreter"",true];" \n "this setVariable [""APW_initAddaction"",true];";
+										init="this setVariable [""interpreter"",true];" \n "player setVariable [""APW_initAddaction"",true];";
 										description="Alpha Squad Leader@Alpha (Infantry)";
 										isPlayable=1;
 										class Inventory
@@ -47741,7 +47741,7 @@ class Mission
 									class Attributes
 									{
 										rank="SERGEANT";
-										init="this setVariable [""interpreter"",true];" \n "this setVariable [""APW_initAddaction"",true];";
+										init="this setVariable [""interpreter"",true];" \n "player setVariable [""APW_initAddaction"",true];";
 										description="Bravo Squad Leader@Bravo (Infantry)";
 										isPlayable=1;
 										class Inventory
@@ -50604,7 +50604,7 @@ class Mission
 									class Attributes
 									{
 										rank="SERGEANT";
-										init="this setVariable [""interpreter"",true];" \n "this setVariable [""APW_initAddaction"",true];";
+										init="this setVariable [""interpreter"",true];" \n "player setVariable [""APW_initAddaction"",true];";
 										description="Charlie Squad Leader@Charlie (Infantry)";
 										isPlayable=1;
 										class Inventory
