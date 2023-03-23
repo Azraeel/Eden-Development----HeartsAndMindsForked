@@ -63,7 +63,7 @@ if ((random 1) > _ratio) then { //MOT
     [_start_pos, _pos, 0, "", "WEDGE"] call btc_mil_fnc_send;
 
 //TEMP TET DEBUG
-[format ["MILITIA CALLED %1", _group],, "REP: ", [true, true, true]] call CBA_fnc_debug;
+[format ["MILITIA CALLED %1", _group], "REP: ", [true, true, true]] call CBA_fnc_debug;
 
     if (btc_debug_log) then {
         [format ["INF %1", _group], __FILE__, [false]] call btc_debug_fnc_message;
