@@ -3,7 +3,7 @@
     <Package name="Description">
         <Container name="Description: Main">
             <Key ID="STR_BTC_HAM_DESCR_NAME">
-                <Original>Hearts and Minds</Original>
+                <Original>Eden Cinematic Universe</Original>
                 <Spanish>Hearts and Minds</Spanish>
                 <German>Hearts and Minds</German>
                 <Portuguese>Corações e Mentes</Portuguese>
@@ -12,7 +12,7 @@
                 <Czech>Hearts and Minds</Czech>
             </Key>
             <Key ID="STR_BTC_HAM_DESCR_MISSION">
-                <Original>github.com/Vdauphin/HeartsAndMinds</Original>
+                <Original>The-Eden.xyz</Original>
                 <Spanish>github.com/Vdauphin/HeartsAndMinds</Spanish>
                 <German>github.com/Vdauphin/HeartsAndMinds</German>
                 <Portuguese>github.com/Vdauphin/HeartsAndMinds</Portuguese>
@@ -2171,6 +2171,28 @@
                 <French>Casser la serrure</French>
                 <Chinesesimp>撬锁</Chinesesimp>
                 <Czech>Rozbijte zámek dveří</Czech>
+            </Key>
+        </Container>
+        <Container name="Action(ACE): Change day time and weather">
+            <Key ID="STR_BTC_HAM_ACTION_SET_DAY">
+                <Original>Set day time</Original>
+                <French>Mettre le jour</French>
+            </Key>
+            <Key ID="STR_BTC_HAM_ACTION_SET_NIGHT">
+                <Original>Set night time</Original>
+                <French>Mettre la nuit</French>
+            </Key>
+            <Key ID="STR_BTC_HAM_ACTION_CHANGE_WEATHER">
+                <Original>Change weather</Original>
+                <French>Changer la météo</French>
+            </Key>
+            <Key ID="STR_BTC_HAM_CHANGE_TIME_ENABLEARSENAL">
+                <Original>Enable change day time for officer on the arsenal box:</Original>
+                <French>Autoriser le changement d'heure pour les officiers sur la caisse arsenal:</French>
+            </Key>
+            <Key ID="STR_BTC_HAM_CHANGE_WEATHER_ENABLEARSENAL">
+                <Original>Enable change weather for officer on the arsenal box:</Original>
+                <French>Autoriser le changement de météo pour les officiers sur la caisse arsenal:</French>
             </Key>
         </Container>
     </Package>

@@ -30,7 +30,6 @@ if (btc_debug || btc_debug_log) then {
     [format ["GLOBAL %1 - CHANGE %2 - %3", btc_global_reputation, _reputation, name _player], __FILE__, [btc_debug, btc_debug_log, true]] call btc_debug_fnc_message;
 };
 
-//[format ["%3 %1[%2]", btc_global_reputation, _reputation, name _player], __FILE__, [true, true, true]] call btc_debug_fnc_message;
 [format ["%3 %1[%2]", btc_global_reputation, _reputation, name _player], "REP: ", [true, true, true]] call CBA_fnc_debug;
 
 btc_global_reputation = btc_global_reputation + _reputation;

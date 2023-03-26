@@ -46,7 +46,7 @@ _city setVariable ["active", true];
 // Create Scaling Multiplier 
 private _CurrentPlayers = count allPlayers;
 //private _currentPlayers = west countSide allUnits;
-private _PlayerScale = (floor (_CurrentPlayers / 6)) max 1;
+private _PlayerScale = ((floor (_CurrentPlayers / 5)) max 1) min 4;
 
 private _data_units = _city getVariable ["data_units", []];
 private _data_animals = _city getVariable ["data_animals", []];

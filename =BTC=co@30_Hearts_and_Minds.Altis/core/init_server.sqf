@@ -93,6 +93,22 @@ if (_y getVariable ["type", ""] != "NameMarine") then {
 };
 } forEach btc_city_all;
 
+if isServer then
+{
+	[] spawn
+	{
+		while {true} do
+		{
+			{
+				_x addCuratorEditableObjects [allPlayers, true];
+                _x addCuratorEditableObjects [btc_vehicles, true];
+                _x addCuratorEditableObjects [btc_veh_respawnable, true];
+			} count allCurators;
+        sleep 60;
+		};
+	};
+};
+
 
 //EDEN - Object Protector
 if isServer then
@@ -108,3 +124,4 @@ if isServer then
 		};
 	};
 };
+

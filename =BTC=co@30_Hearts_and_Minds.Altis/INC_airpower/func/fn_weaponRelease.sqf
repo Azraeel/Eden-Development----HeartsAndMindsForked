@@ -30,7 +30,7 @@ _this spawn {
 
 					[_callingObject,"SetAmmo",["bomb",1]] call APW_fnc_APWMain;
 
-					_ordnance = "Bo_GBU12_LGB";
+					_ordnance = "Bomb_03_F";
 					_speed = 200;
 
 					_laserObject = "LaserTargetW" createVehicle [0,0,0];
@@ -165,8 +165,8 @@ _this spawn {
 
 					[_callingObject,"SetAmmo",["missile",1]] call APW_fnc_APWMain;
 
-					_ordnance = "M_Scalpel_AT";
-					_speed = 450;
+					_ordnance = "Missile_AGM_02_F";
+					_speed = 500;
 
 					_laserObject = "LaserTargetW" createVehicle [0,0,0];
 

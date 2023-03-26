@@ -19,6 +19,9 @@ btc_p_db_autoRestartHour = [
 ];
 btc_p_db_autoRestartType = "btc_p_db_autoRestartType" call BIS_fnc_getParamValue;
 btc_p_slot_isShare = "btc_p_slot_isShare" call BIS_fnc_getParamValue isEqualTo 1;
+btc_p_change_time = ("btc_p_change_time" call BIS_fnc_getParamValue) isEqualTo 1;
+btc_p_change_weather = ("btc_p_change_weather" call BIS_fnc_getParamValue) isEqualTo 1;
+
 
 //<< Respawn options >>
 btc_p_respawn_location = "btc_p_respawn_location" call BIS_fnc_getParamValue;
@@ -178,10 +181,10 @@ if (isServer) then {
 
     //Patrol
     btc_patrol_active = [];
-    btc_patrol_area = 2500;
+    btc_patrol_area = 1500;
 
     //Rep
-    btc_rep_militia_call_time = 600;
+    btc_rep_militia_call_time = 1000;
     btc_rep_militia_called = - btc_rep_militia_call_time;
     btc_rep_delayed = [0, []];
 
@@ -520,17 +523,6 @@ btc_construction_array =
         ],
         [
             //"Ammobox"
-            "CAV_C_Ammo_556x45M855A1MixedBELT",
-            "CAV_C_Ammo_556x45M855A1STANAG",
-            "CAV_C_Ammo_556x45M855A1TRACERSTANAG",
-            "CAV_C_Ammo_762mmM61AP100rndBELT",
-            //"CAV_C_Attachments_rhsusfaccACOG",
-            //"CAV_C_Attachments_rhsusfacccompm4",
-            //"CAV_C_Attachments_rhsusfaccELCAN",
-            //"CAV_C_Attachments_ACCPointerIR",
-            //"CAV_C_Wps_m240B",
-            //"CAV_C_Wps_M249",
-            "tf47_launcherbox",
             "Box_NATO_AmmoOrd_F",
             "ACE_Box_82mm_Mo_HE",
             "ACE_Box_82mm_Mo_Illum",
@@ -547,22 +539,6 @@ btc_construction_array =
             //"Supplies"
             btc_supplies_cargo,
             "C_supplyCrate_F",
-            //"CAV_C_Gear_ANPVS15",
-            //"CAV_C_Gear_Earplugs",
-            //"CAV_C_Gear_Electronics",
-            //"CAV_C_MED_BLOOD",
-            "CAV_C_MED_BODYBAG",
-            "CAV_C_MED_MedicalCrate",
-            //"CAV_C_MED_ELASTICBANDAGE",
-            //"CAV_C_MED_BANDAGES",
-            //"CAV_C_MED_FIELDDRESSING",
-            "CAV_C_MED_HostpitalCrate",
-            //"CAV_C_MED_HostpitalIV",
-            //"CAV_C_MED_PACKINGBANDAGE",
-            //"CAV_C_MED_PLASMA",
-            //"CAV_C_MED_SALINE",
-            "CAV_C_Gear_TBS",
-            "CAV_C_Crate_Supply",
             "ACE_Box_Chemlights",
             "ACE_medicalSupplyCrate_advanced",
             "ACE_medicalSupplyCrate"
@@ -683,13 +659,13 @@ btc_type_motorized_armed = _allclasse select 6;
 btc_type_mg = _allclasse select 7;
 btc_type_gl = _allclasse select 8;
 
-btc_type_units = btc_type_units + ["rhsgref_tla_specialist_at", "rhsgref_tla_squadleader", "rhsgref_tla_crew", "rhsgref_tla_grenadier", "rhsgref_tla_grenadier_m79", "rhsgref_tla_rifleman", "rhsgref_tla_rifleman_akms", "rhsgref_tla_rifleman_l1a1", "rhsgref_tla_rifleman_m1", "rhsgref_tla_rifleman_m14", "rhsgref_tla_rifleman_M16", "rhsgref_tla_rifleman_pm63", "rhsgref_tla_rifleman_rpg75", "rhsgref_tla_rifleman_vz58", "rhsgref_tla_machinegunner", "rhsgref_tla_machinegunner_mg42", "rhsgref_tla_marksman_m14", "rhsgref_tla_mechanic", "rhsgref_tla_medic", "rhsgref_tla_saboteur", "rhsgref_tla_warlord"];
-btc_type_motorized = btc_type_motorized + ["rhsgref_tla_offroad", "rhsgref_tla_offroad_at", "rhsgref_tla_offroad_armed", "O_G_Van_01_transport_F", "O_G_Van_02_transport_F", "RHS_Ural_Ammo_VV_01", "RHS_Ural_Flat_VV_01", "RHS_Ural_Open_VV_01", "rhsgref_ins_uaz_spg9", "rhsgref_ins_uaz_dshkm", "rhs_tigr_m_msv", "RHS_UAZ_MSV_01", "rhs_uaz_open_MSV_01"];
-btc_type_motorized_armed = btc_type_motorized_armed + ["rhsgref_tla_btr60", "rhs_btr70_vv", "rhs_btr80_vv", "rhs_btr80a_vv", "RHS_BM21_VV_01", "RHS_Ural_Zu23_VV_01", "rhs_bmp2d_vv", "rhs_bmp2k_vv", "rhs_prp3_vv", "RHS_Mi8mt_vv", "RHS_Mi24V_vdv", "RHS_Su25SM_vvsc","rhsgref_BRDM2_msv"];
-btc_type_mg = btc_type_mg + ["rhsgref_tla_DSHKM_Mini_TriPod", "rhsgref_tla_DSHKM", "rhsgref_tla_2b14"];
+btc_type_units = btc_type_units + ["UK3CB_ADA_O_CREW", "UK3CB_ADA_O_JET_PILOT", "UK3CB_ADA_O_HELI_PILOT", "UK3CB_ADA_O_CREW_COMM"];
+//btc_type_motorized = btc_type_motorized + ["UK3CB_ADA_O_Datsun_Pickup_PKM", "UK3CB_ADA_O_LR_AGS3", "UK3CB_ADA_O_LR_M2", "UK3CB_ADA_O_LR_SPG9", "UK3CB_ADA_O_LR_SF_M2", "UK3CB_ADA_O_LR_SF_AGS30", "UK3CB_ADA_O_Pickup_DSHKM"];
+//btc_type_motorized_armed = btc_type_motorized_armed - ["UK3CB_ADA_O_T34", "UK3CB_ADA_O_T55", "UK3CB_ADA_O_T72A", "UK3CB_ADA_O_BMP1", "UK3CB_ADA_O_BMP2", "UK3CB_ADA_O_BTR80", "UK3CB_ADA_O_BTR40_MG", "UK3CB_ADA_O_BRDM2", "UK3CB_ADA_O_BRDM2_ATGM", "UK3CB_ADA_O_BTR60", "UK3CB_ADA_O_BTR70", "UK3CB_ADA_O_Ural_Zu23", "UK3CB_ADA_O_V3S_Zu23", "UK3CB_ADA_O_ZsuTank"];
+btc_type_mg = btc_type_mg - ["UK3CB_ADA_O_PKM_nest_des", "UK3CB_ADA_O_PKM_nest"];
 
 //Sometimes you need to remove units: - ["Blabla","moreBlabla"];
-//Sometimes you need to add units: + ["Blabla","moreBlabla"];
+//Sometimes you need to add units: + ["Blabla","moreBlabla"]; 
 switch (_p_en) do {
     /*case "Myfactionexemple" : {
         btc_type_units = btc_type_units - ["Blabla","moreBlabla"];
@@ -700,15 +676,7 @@ switch (_p_en) do {
         btc_type_mg = btc_type_mg;
         btc_type_gl = btc_type_gl;
     };*/
-    case "OPF_G_F" : {
-        btc_type_motorized = btc_type_motorized + ["I_Truck_02_transport_F", "I_Truck_02_covered_F"];
-        btc_type_motorized_armed = btc_type_motorized_armed + ["I_Heli_light_03_F"];
-    };
-    case "IND_C_F" : {
-        btc_type_motorized = btc_type_motorized + ["I_G_Offroad_01_repair_F", "I_G_Offroad_01_F", "I_G_Quadbike_01_F", "I_G_Van_01_fuel_F", "I_Truck_02_transport_F", "I_Truck_02_covered_F"];
-        btc_type_motorized_armed = btc_type_motorized_armed + ["I_Heli_light_03_F", "I_G_Offroad_01_F"];
-        btc_type_units = btc_type_units - ["I_C_Soldier_Camo_F"];
-    };
+   
 };
 
 //Chem
@@ -735,17 +703,17 @@ btc_rep_malus_civ_killed = - 20;
 btc_rep_malus_animal_killed = - 5;
 btc_rep_malus_civ_suppressed = - 0.5;
 btc_rep_malus_player_respawn = - 0;
-btc_rep_malus_veh_killed = - 25;
+btc_rep_malus_veh_killed = + 10;
 btc_rep_malus_building_damaged = - 2.5;
 btc_rep_malus_building_destroyed = - 15;
 btc_rep_malus_foodRemove = - btc_rep_bonus_foodGive;
 btc_rep_malus_breakDoor = - 1;
 btc_rep_malus_wheelChange = - 0;
 
-btc_rep_level_veryLow = 0;
-btc_rep_level_low = 200;
-btc_rep_level_normal = 500;
-btc_rep_level_high = 750;
+btc_rep_level_veryLow = 1000;
+btc_rep_level_low = 2000;
+btc_rep_level_normal = 3000;
+btc_rep_level_high = 4000;
 
 //Headless
 btc_units_owners = [];
@@ -767,4 +735,4 @@ btc_flag_textures = [
 btc_body_bagTicketPlayer = 1;
 btc_body_prisonerTicket = 3;
 
-btc_startDate = [2035, 6, 24, 12, 15];
+btc_startDate = [1990, 5, 17, 12, 15];
