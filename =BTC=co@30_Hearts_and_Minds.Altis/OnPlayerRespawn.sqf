@@ -11,4 +11,8 @@
 //Incon Airpower
 [player,"initPlayer"] call APW_fnc_APWMain;
 
-[player, BIS_requesterMod, BIS_providerMod] call BIS_fnc_addSupportLink;
+if ((typeOf player) in ["",""]) then  {
+    [player, BIS_requesterMod, BIS_providerMod] call BIS_fnc_addSupportLink;
+};
+
+player setVariable ["APW_initRadioTrig",true];
