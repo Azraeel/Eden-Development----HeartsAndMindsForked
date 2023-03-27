@@ -8,13 +8,17 @@
     };
 } forEach ARSENAL_CRATES;
 
-//Incon Airpower
+//SUPPORT CODE
 [player,"initPlayer"] call APW_fnc_APWMain;
-player setVariable ["APW_initRadioTrig",true];
-
-//MEDEVACLINK
-
 Private _UnitRole = roleDescription player;
+
+if ((_UnitRole == "Company Commander @ CROSSROADS")
+    or (_UnitRole == "Alpha Squad Leader@Alpha (Infantry)")
+    or (_UnitRole == "Bravo Squad Leader@Bravo (Infantry)")
+    or (_UnitRole == "Charlie Squad Leader@Charlie (Infantry)")) then {
+player setVariable ["APW_initRadioTrig",true];
+};
+
 
 if ((_UnitRole == "Company Commander @ CROSSROADS")
     or (_UnitRole == "Alpha Medic")

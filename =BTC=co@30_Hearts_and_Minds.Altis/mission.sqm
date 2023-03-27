@@ -65891,6 +65891,7 @@ class Mission
 				position[]={-849.52502,43.147091,8783.8926};
 				angles[]={0.0012391838,0,6.2696414};
 			};
+			name="BIS_requesterMod";
 			id=3803;
 			type="SupportRequester";
 			atlOffset=-3.8146973e-006;
@@ -65995,9 +65996,10 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={-899.87939,43.507751,8812.6055};
-				angles[]={0.001035801,0,6.2710471};
+				position[]={-899.87903,43.507748,8812.6055};
+				angles[]={0.0010297443,0,6.2710552};
 			};
+			name="BIS_providerMod";
 			id=3804;
 			type="SupportProvider_Virtual_Transport";
 			class CustomAttributes
