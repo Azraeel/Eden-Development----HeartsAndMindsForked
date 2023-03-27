@@ -1,32 +1,11 @@
 <p align="center">
-:arrow_right:
-<a href="http://vdauphin.github.io/HeartsAndMinds/">
-:book: Documentation</a> |
-<a href="https://github.com/Vdauphin/HeartsAndMinds/discussions">:speech_balloon: Discussions</a> |
- <a href="https://www.battlemetrics.com/servers/arma3?q=hearts%2Band%2Bminds%20||%20%22H%26M%22&status=online&sort=-players">
-:video_game: Play</a>
- :arrow_left:
-</p>
-
-<p align="center">
-    <img src="https://data.bistudio.com/assets/img/badges/medal/MWFMP.png" width="85">
-    <img src="https://user-images.githubusercontent.com/14364400/120066018-bd52ed80-c074-11eb-87d6-61cdeada32f8.png" width="210">
-    <img src="https://data.bistudio.com/assets/img/badges/medal/MWFMP.png" width="85">
+    <img src="https://the-eden.xyz/wp-content/uploads/2023/03/EdenLogo.png" width="210">
 </p>
 
 <p align="center">
 <b>
-Post war anti insurgency dynamic mission with focus on good relations with civilian population.
+A fully custom take on Hearts and Minds by Vdauphin modified by the Eden development team for use on a private server.
 </b>
-</p>
-
-<p align="center">
-    <a href="https://github.com/Vdauphin/HeartsAndMinds/releases/tag/1.23.1">
-        <img src="https://img.shields.io/badge/Version-1.23.1-blue.svg?style=flat-square" alt="H&M Version">
-    </a>
-    <a href="https://somsubhra.github.io/github-release-stats/?username=vdauphin&repository=HeartsAndMinds&page=1&per_page=300">
-        <img src="https://img.shields.io/github/downloads/Vdauphin/HeartsAndMinds/total.svg?style=flat-square&label=Downloads" alt="H&M Downloads">
-    </a>
 </p>
 
 ______________________________________________
@@ -47,12 +26,19 @@ Bad actions cause bad effects.
 Infact there's a reputation system: helping the local population, fighting the "Oplitas", disarming IED will rise your reputation; killing civilians, mutilate alive/dead civilian, firing near civilians for no reason, remove banana, damaging/destroying buildings, breaking locked door, losing vehicles, respawns will decrease your reputation.
 At the beginning you have a very low reputation level, so civilians won't help you revealing important information about Oplitas, they will likely lie instead.
 
-<p align="center">
-    <img src="https://user-images.githubusercontent.com/14364400/28997116-bfcec8a6-7a0d-11e7-911f-b52edb841ae3.png" width="400">
-    <img src="https://user-images.githubusercontent.com/14364400/29193966-d8306378-7e27-11e7-97cb-df76dfc08e53.png" width="400">
-</p>
-
 # :sparkles: Features:
+
+## :memo: EDEN specific Changes
+- 
+    - 
+    -
+    -
+-
+    -
+    -
+    -
+
+## :book: Original Features
 
 - **Dedicated server support only**
 - Dynamic battlefield
@@ -92,6 +78,7 @@ At the beginning you have a very low reputation level, so civilians won't help y
 
 # :clap: Credits:
 - =BTC= clan
+- Full credit to the original [Creator](https://github.com/Vdauphin)
 - [Contributors](https://github.com/Vdauphin/HeartsAndMinds/graphs/contributors)
 
 Any support or feedback is always welcome and appreciated!
