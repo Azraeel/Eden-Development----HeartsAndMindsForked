@@ -10,11 +10,15 @@
 
 //Incon Airpower
 [player,"initPlayer"] call APW_fnc_APWMain;
+player setVariable ["APW_initRadioTrig",true];
 
-if ((typeOf player) in ["rhsusf_army_ocp_medic","rhsusf_army_ocp_medic","rhsusf_army_ocp_medic","rhsusf_army_ocp_helipilot","rhsusf_army_ocp_combatcrewman","rhsusf_army_ocp_combatcrewman","rhsusf_army_ocp_helipilot","rhsusf_army_ocp_engineer"]) then  { // MASTER CONFIG - MEDEVAC ROLES
-    [player, BIS_requesterMod, BIS_providerMod] call BIS_fnc_addSupportLink;
-};
+//MEDEVACLINK
 
-if ((typeOf player) in ["rhsusf_army_ocp_squadleader","rhsusf_army_ocp_squadleader","rhsusf_army_ocp_squadleader","rhsusf_army_ocp_officer"]) then  { // MASTER CONFIG - CAS ROLES
-    player setVariable ["APW_initRadioTrig",true];
+Private _UnitRole = roleDescription player;
+
+if ((_UnitRole == "Company Commander @ CROSSROADS")
+    or (_UnitRole == "Alpha Medic")
+    or (_UnitRole == "Bravo Medic")
+    or (_UnitRole == "Charlie Medic")) then {
+[player, BIS_requesterMod, BIS_providerMod] call BIS_fnc_addSupportLink;
 };

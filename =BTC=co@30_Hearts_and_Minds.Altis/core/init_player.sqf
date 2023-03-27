@@ -79,3 +79,18 @@ WHITELISTED = [
 if (player getVariable ["Reserved", false]) then {
     if !(getplayerUID player in WHITELISTED) then {"end1" call BIS_fnc_endMission;};
 };
+
+//Incon Airpower
+[player,"initPlayer"] call APW_fnc_APWMain;
+player setVariable ["APW_initRadioTrig",true];
+
+//MEDEVACLINK
+
+Private _UnitRole = roleDescription player;
+
+if ((_UnitRole == "Company Commander @ CROSSROADS")
+    or (_UnitRole == "Alpha Medic")
+    or (_UnitRole == "Bravo Medic")
+    or (_UnitRole == "Charlie Medic")) then {
+[player, BIS_requesterMod, BIS_providerMod] call BIS_fnc_addSupportLink;
+};
