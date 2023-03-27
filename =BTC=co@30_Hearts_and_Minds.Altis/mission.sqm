@@ -12,7 +12,7 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=530;
+		nextID=536;
 	};
 	class Camera
 	{
@@ -66064,96 +66064,16 @@ class Mission
 	{
 		class LinkIDProvider
 		{
-			nextID=9;
+			nextID=1;
 		};
 		class Links
 		{
-			items=9;
+			items=1;
 			class Item0
 			{
 				linkID=0;
 				item0=3803;
 				item1=3804;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item1
-			{
-				linkID=1;
-				item0=3803;
-				item1=3408;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item2
-			{
-				linkID=2;
-				item0=3803;
-				item1=3419;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item3
-			{
-				linkID=3;
-				item0=3803;
-				item1=3438;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item4
-			{
-				linkID=4;
-				item0=3450;
-				item1=3803;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item5
-			{
-				linkID=5;
-				item0=3454;
-				item1=3803;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item6
-			{
-				linkID=6;
-				item0=3458;
-				item1=3803;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item7
-			{
-				linkID=7;
-				item0=3440;
-				item1=3803;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item8
-			{
-				linkID=8;
-				item0=3444;
-				item1=3803;
 				class CustomData
 				{
 					type="Sync";
