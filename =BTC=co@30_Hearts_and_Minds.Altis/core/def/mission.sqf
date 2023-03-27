@@ -306,25 +306,25 @@ if (isServer) then {
     // If there's a hit in btc_buildings_multiplier, btc_buildings_categories_multipliers will NOT be run
     btc_buildings_multipliers = [
         // Specific buildings that need to have a custom modifier.
-        ["Land_BellTower", 0.2 ], ["Land_WIP", 1.5], ["Land_u_Addon_01", 0.2],
-        ["Land_Airport_Tower", 10.0], ["Land_Mil_ControlTower", 10.0],
-        ["Land_TentHangar", 7.0], ["Land_i_Shed_Ind", 1.5], ["Land_u_Shed_Ind", 1.5],
-        ["Land_TTowerBig", 6.0], ["Land_TTowerSmall", 4.5], ["Land_cmp_Tower", 4.0]
+        //["Land_BellTower", 0.2 ], ["Land_WIP", 1.5], ["Land_u_Addon_01", 0.2],
+        //["Land_Airport_Tower", 10.0], ["Land_Mil_ControlTower", 10.0],
+        //["Land_TentHangar", 7.0], ["Land_i_Shed_Ind", 1.5], ["Land_u_Shed_Ind", 1.5],
+        //["Land_TTowerBig", 6.0], ["Land_TTowerSmall", 4.5], ["Land_cmp_Tower", 4.0]
     ];
 
     // The multipliers are applied on top of each other, so "Chapel" and "Small" will both multiply the malus value
     btc_buildings_categories_multipliers = [
-        ["Shed", 0.75], ["Slum", 0.8], ["Small", 0.8], ["Big", 1.5], ["Villa", 2.0], ["Main", 3.0], ["Tower", 2.0],
-        ["HouseBlock", 2.0], ["Panelak", 2.0], ["Tenement", 7.0],
-        ["Barn", 1.5], ["School", 3.0], ["Office", 2.0], ["Shop", 1.5], ["Store", 1.5], ["Hospital", 12.0],
-        ["Castle", 2.5], ["Chapel", 3.0], ["Minaret", 3.0], ["Mosque", 4.0], ["Church", 4.0], ["Kostel", 4.0],
-        ["Lighthouse", 4.0],
-        ["Airport", 4.0], ["Hangar", 1.75], ["ControlTower", 2.25], ["Terminal", 3.0],
-        ["Hopper", 2.0], ["Tank", 4.0], ["Factory", 2.0], ["Transformer", 1.1],
+        ["Shed", 1], ["Slum", 1], ["Small", 1], ["Big", 1], ["Villa", 1], ["Main", 1], ["Tower", 1],
+        ["HouseBlock", 1], ["Panelak", 1], ["Tenement", 1],
+        ["Barn", 1], ["School", 1], ["Office", 1], ["Shop", 1], ["Store", 1], ["Hospital", 10.0],
+        ["Castle", 1], ["Chapel", 5.0], ["Minaret", 5.0], ["Mosque", 5.0], ["Church", 5], ["Kostel", 5],
+        ["Lighthouse", 5],
+        ["Airport", 1], ["Hangar", 1], ["ControlTower", 1], ["Terminal", 1],
+        ["Hopper", 1], ["Tank", 1], ["Factory", 1], ["Transformer", 1],
         ["FuelStation", 5.0],
-        ["Barracks", 1.75],
-        ["spp", 3.0], ["Powerstation", 3.0],
-        ["Pump", 2.5]
+        ["Barracks", 1],
+        ["spp", 1], ["Powerstation", 5],
+        ["Pump", 1]
     ];
     btc_buildings_changed = [];
 
