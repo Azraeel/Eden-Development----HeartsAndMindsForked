@@ -384,7 +384,7 @@ if (isServer) then {
 //Civ
 // Get all faction from mod there are currently running
 //copyToClipboard str (["CIV"] call btc_fnc_get_class);
-private _allfaction = ["CIV_F","DEFAULT","CFP_C_AFG","CFP_C_AFRCHRISTIAN","CFP_C_AFRISLAMIC","CFP_C_ASIA","CFP_C_CHERNO_WIN","CFP_C_MALDEN","CFP_C_ME","CIV_IDAP_F","CSLA_CIV","CUP_C_RU","CUP_C_CHERNARUS","CUP_C_SAHRANI","CUP_C_TK","CWR3_FACTION_CIV","GM_FC_GC_CIV","GM_FC_GE_CIV","LIB_CIV","OPTRE_UEG_CIV","RDS_POL_CIV","RDS_RUS_CIV","UK3CB_ADC_C","UK3CB_CHC_C","UK3CB_TKC_C","UNSUNG_C","C_VIET"]; //All factions
+private _allfaction = ["CIV_F","DEFAULT","LOP_AFR_CIV","LOP_CHR_CIV","LOP_TAK_CIV","CIV_IDAP_F","UK3CB_ADC_C","UK3CB_CHC_C","UK3CB_TKC_C"]; //All factions
 _p_civ = _allfaction select _p_civ; //Select faction selected from mission parameter
 _p_civ_veh = _allfaction select _p_civ_veh; //Select faction selected from mission parameter
 private _allclasse = [[_p_civ]] call btc_civ_fnc_class; //Create classes from factions, you can combine factions from the SAME side : [[_p_civ, "btc_ac","LOP_TAK_CIV"]] call btc_civ_fnc_class.
@@ -659,11 +659,6 @@ btc_type_motorized_armed = _allclasse select 6;
 btc_type_mg = _allclasse select 7;
 btc_type_gl = _allclasse select 8;
 
-btc_type_units = btc_type_units + ["UK3CB_ADA_O_CREW", "UK3CB_ADA_O_JET_PILOT", "UK3CB_ADA_O_HELI_PILOT", "UK3CB_ADA_O_CREW_COMM"];
-//btc_type_motorized = btc_type_motorized + ["UK3CB_ADA_O_Datsun_Pickup_PKM", "UK3CB_ADA_O_LR_AGS3", "UK3CB_ADA_O_LR_M2", "UK3CB_ADA_O_LR_SPG9", "UK3CB_ADA_O_LR_SF_M2", "UK3CB_ADA_O_LR_SF_AGS30", "UK3CB_ADA_O_Pickup_DSHKM"];
-//btc_type_motorized_armed = btc_type_motorized_armed - ["UK3CB_ADA_O_T34", "UK3CB_ADA_O_T55", "UK3CB_ADA_O_T72A", "UK3CB_ADA_O_BMP1", "UK3CB_ADA_O_BMP2", "UK3CB_ADA_O_BTR80", "UK3CB_ADA_O_BTR40_MG", "UK3CB_ADA_O_BRDM2", "UK3CB_ADA_O_BRDM2_ATGM", "UK3CB_ADA_O_BTR60", "UK3CB_ADA_O_BTR70", "UK3CB_ADA_O_Ural_Zu23", "UK3CB_ADA_O_V3S_Zu23", "UK3CB_ADA_O_ZsuTank"];
-btc_type_mg = btc_type_mg - ["UK3CB_ADA_O_PKM_nest_des", "UK3CB_ADA_O_PKM_nest"];
-
 //Sometimes you need to remove units: - ["Blabla","moreBlabla"];
 //Sometimes you need to add units: + ["Blabla","moreBlabla"]; 
 switch (_p_en) do {
@@ -697,8 +692,8 @@ btc_rep_bonus_removeTag = 5;
 btc_rep_bonus_removeTagLetter = 3;
 btc_rep_bonus_foodGive = 5;
 
-btc_rep_malus_civ_hd = - 2;
-btc_rep_malus_animal_hd = - 1;
+btc_rep_malus_civ_hd = - 0;
+btc_rep_malus_animal_hd = - 0;
 btc_rep_malus_civ_killed = - 20;
 btc_rep_malus_animal_killed = - 5;
 btc_rep_malus_civ_suppressed = - 0.5;
