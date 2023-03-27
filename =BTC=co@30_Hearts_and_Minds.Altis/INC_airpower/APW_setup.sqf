@@ -13,7 +13,7 @@ _percentage = 75;                      //Percentage chance that the aircraft wil
 _hqCallsign = "JOINT AIR COMMAND";             //Callsign for HQ element
 _airCallsign = "STALKER";           //Aircraft callsign
 _nightTimeOnly = false;                 //Is activity limited to night-time only sorties?
-_useRadioTriggers = false;               //Interact with CAS using Radio Charlie
+_useRadioTriggers = true;               //Interact with CAS using Radio Charlie
 
 //Player options
 _necItem = "B_UavTerminal";                 //Required item to call for air support (must be in the unit's assigned items - i.e. laser designator or UAV terminal, but not smoke grenade).

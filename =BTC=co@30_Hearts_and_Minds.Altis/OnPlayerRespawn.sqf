@@ -9,7 +9,7 @@
 } forEach ARSENAL_CRATES;
 
 //SUPPORT CODE
-[player,"initPlayer"] call APW_fnc_APWMain;
+
 Private _UnitRole = roleDescription player;
 
 if ((_UnitRole == "Company Commander @ CROSSROADS")
@@ -26,3 +26,5 @@ if ((_UnitRole == "Company Commander @ CROSSROADS")
     or (_UnitRole == "Charlie Medic")) then {
 [player, BIS_requesterMod, BIS_providerMod] call BIS_fnc_addSupportLink;
 };
+
+[player,"initPlayer"] call APW_fnc_APWMain;

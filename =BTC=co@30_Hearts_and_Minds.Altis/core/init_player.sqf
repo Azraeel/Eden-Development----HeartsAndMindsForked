@@ -81,7 +81,6 @@ if (player getVariable ["Reserved", false]) then {
 };
 
 //SUPPORT CODE
-[player,"initPlayer"] call APW_fnc_APWMain;
 Private _UnitRole = roleDescription player;
 
 if ((_UnitRole == "Company Commander @ CROSSROADS")
@@ -89,6 +88,7 @@ if ((_UnitRole == "Company Commander @ CROSSROADS")
     or (_UnitRole == "Bravo Squad Leader@Bravo (Infantry)")
     or (_UnitRole == "Charlie Squad Leader@Charlie (Infantry)")) then {
 player setVariable ["APW_initRadioTrig",true];
+player setVariable ["APW_initAddaction",true];
 };
 
 
@@ -98,3 +98,5 @@ if ((_UnitRole == "Company Commander @ CROSSROADS")
     or (_UnitRole == "Charlie Medic")) then {
 [player, BIS_requesterMod, BIS_providerMod] call BIS_fnc_addSupportLink;
 };
+
+[player,"initPlayer"] call APW_fnc_APWMain;
