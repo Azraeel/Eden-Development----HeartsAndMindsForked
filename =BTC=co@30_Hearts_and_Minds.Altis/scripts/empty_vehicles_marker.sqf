@@ -7,7 +7,7 @@ _cfg = configFile >> "cfgVehicles";
 _vehtomark = [];
 
 _vehtomark = [
-// EDEN - CONFIG - VEHICLES TO BE MARKED
+// EDEN - MASTER CONFIG - VEHICLES TO BE MARKED
 // Medical Vehicle
 "UK3CB_CW_US_B_LATE_UH1H_MED", 
 "rhsusf_m113d_usarmy_medical", 

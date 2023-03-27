@@ -145,6 +145,8 @@ if (btc_p_respawn_ticketsAtStart >= 0) then {
     [_obj, 0] call ace_cargo_fnc_setSpace; // CONFIG - Changed FOB container size
 }, true, [], true] call CBA_fnc_addClassEventHandler;
 
+// MASTER CONFIG - Vehicle cargo sizes
+
 //LARGE
 {
     [_x, "InitPost", {
@@ -165,7 +167,7 @@ if (btc_p_respawn_ticketsAtStart >= 0) then {
 // HELI CARGO
 "RHS_CH_47F_10"
 
-]; // CONFIG - Vehicle ACE Cargo size
+];
 
 //Medium
 {
@@ -193,7 +195,7 @@ if (btc_p_respawn_ticketsAtStart >= 0) then {
 "RHS_MELB_AH6M",
 "fza_ah64d_b2e_nr",
 "UK3CB_CW_US_B_LATE_UH1H_GUNSHIP"
-]; // CONFIG - Vehicle ACE Cargo size
+];
 
 //Small 
 {
@@ -209,7 +211,7 @@ if (btc_p_respawn_ticketsAtStart >= 0) then {
 // BRADLEY
 "RHS_M2A2",
 "RHS_M6"
-]; // CONFIG - Vehicle ACE Cargo size
+];
 
 
 

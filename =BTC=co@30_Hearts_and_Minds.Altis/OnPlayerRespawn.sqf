@@ -11,8 +11,10 @@
 //Incon Airpower
 [player,"initPlayer"] call APW_fnc_APWMain;
 
-if ((typeOf player) in ["",""]) then  {
+if ((typeOf player) in ["",""]) then  { // MASTER CONFIG - MEDEVAC ROLES
     [player, BIS_requesterMod, BIS_providerMod] call BIS_fnc_addSupportLink;
 };
 
-player setVariable ["APW_initRadioTrig",true];
+if ((typeOf player) in ["",""]) then  { // MASTER CONFIG - CAS ROLES
+    player setVariable ["APW_initRadioTrig",true];
+};
