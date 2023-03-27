@@ -269,7 +269,7 @@ class Params {
         texts[]={$STR_MEDIUM,$STR_SMALL};
         default = 0;
 	};
-    class btc_p_ied_drone { // Drone bomber:
+    class btc_p_ied_drone { // Drone bomber: [DISABLED = OPTIONAL BOTH]
         title = __EVAL(format ["      %1", localize "STR_BTC_HAM_PARAM_IED_DRONE"]);
         values[]={0, 1};
         texts[]={$STR_DISABLED,$STR_ENABLED};

@@ -258,7 +258,19 @@ if !(_city getVariable ["has_suicider", false]) then {
         if (selectRandom [false, false, btc_p_ied_drone]) then {
             [[_city, _spawningRadius, getPosATL _city], btc_ied_fnc_drone_create] call btc_delay_fnc_exec;
         } else {
-            [[_city, _spawningRadius], btc_ied_fnc_suicider_create] call btc_delay_fnc_exec;
+            // Define the two lines of code to choose from
+                _line1 = { [[_city, _spawningRadius], btc_ied_fnc_suicider_create] call btc_delay_fnc_exec; };
+                _line2 = { [[_city, _spawningRadius, getPosATL _city], btc_ied_fnc_drone_create] call btc_delay_fnc_exec; };
+
+                // Generate a random number between 0 and 1
+                _randomNum = random 2;
+
+                // Choose which line of code to run based on the random number
+                if (_randomNum == 0) then {
+                    _line1 call compile;
+                } else {
+                    _line2 call compile;
+                };
         };
         _delay = _delay + btc_delay_unit;
     };
