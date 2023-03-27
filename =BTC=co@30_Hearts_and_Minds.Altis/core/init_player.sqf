@@ -79,3 +79,23 @@ WHITELISTED = [
 if (player getVariable ["Reserved", false]) then {
     if !(getplayerUID player in WHITELISTED) then {"end1" call BIS_fnc_endMission;};
 };
+
+//SUPPORT CODE
+Private _UnitRole = roleDescription player;
+
+if ((_UnitRole == "Company Commander @ CROSSROADS")
+    or (_UnitRole == "Alpha Squad Leader@Alpha (Infantry)")
+    or (_UnitRole == "Bravo Squad Leader@Bravo (Infantry)")
+    or (_UnitRole == "Charlie Squad Leader@Charlie (Infantry)")) then {
+player setVariable ["APW_initRadioTrig",true];
+};
+
+
+if ((_UnitRole == "Company Commander @ CROSSROADS")
+    or (_UnitRole == "Alpha Medic")
+    or (_UnitRole == "Bravo Medic")
+    or (_UnitRole == "Charlie Medic")) then {
+[player, BIS_requesterMod, BIS_providerMod] call BIS_fnc_addSupportLink;
+};
+
+[player,"initPlayer"] call APW_fnc_APWMain;
