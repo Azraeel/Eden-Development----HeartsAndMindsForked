@@ -10,3 +10,5 @@
 
 //Incon Airpower
 [player,"initPlayer"] call APW_fnc_APWMain;
+
+[player, BIS_requesterMod, BIS_providerMod] call BIS_fnc_addSupportLink;
