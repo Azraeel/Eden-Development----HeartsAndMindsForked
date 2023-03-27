@@ -661,10 +661,10 @@ btc_type_gl = _allclasse select 8;
 
 
 // MASTER CONFIG - Custom units array
-btc_type_units = btc_type_units + ["UK3CB_ADA_O_CREW", "UK3CB_ADA_O_JET_PILOT", "UK3CB_ADA_O_HELI_PILOT", "UK3CB_ADA_O_CREW_COMM"];
+//btc_type_units = btc_type_units + ["UK3CB_ADA_O_CREW", "UK3CB_ADA_O_JET_PILOT", "UK3CB_ADA_O_HELI_PILOT", "UK3CB_ADA_O_CREW_COMM"];
 //btc_type_motorized = btc_type_motorized + ["UK3CB_ADA_O_Datsun_Pickup_PKM", "UK3CB_ADA_O_LR_AGS3", "UK3CB_ADA_O_LR_M2", "UK3CB_ADA_O_LR_SPG9", "UK3CB_ADA_O_LR_SF_M2", "UK3CB_ADA_O_LR_SF_AGS30", "UK3CB_ADA_O_Pickup_DSHKM"];
 //btc_type_motorized_armed = btc_type_motorized_armed - ["UK3CB_ADA_O_T34", "UK3CB_ADA_O_T55", "UK3CB_ADA_O_T72A", "UK3CB_ADA_O_BMP1", "UK3CB_ADA_O_BMP2", "UK3CB_ADA_O_BTR80", "UK3CB_ADA_O_BTR40_MG", "UK3CB_ADA_O_BRDM2", "UK3CB_ADA_O_BRDM2_ATGM", "UK3CB_ADA_O_BTR60", "UK3CB_ADA_O_BTR70", "UK3CB_ADA_O_Ural_Zu23", "UK3CB_ADA_O_V3S_Zu23", "UK3CB_ADA_O_ZsuTank"];
-btc_type_mg = btc_type_mg - ["UK3CB_ADA_O_PKM_nest_des", "UK3CB_ADA_O_PKM_nest"];
+//btc_type_mg = btc_type_mg - ["UK3CB_ADA_O_PKM_nest_des", "UK3CB_ADA_O_PKM_nest"];
 
 
 //Sometimes you need to remove units: - ["Blabla","moreBlabla"];
