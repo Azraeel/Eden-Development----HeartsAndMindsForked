@@ -12,18 +12,18 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=518;
+		nextID=524;
 	};
 	class Camera
 	{
-		pos[]={1552.4213,78.363663,8033.9116};
-		dir[]={0.13808016,-0.77019674,0.62273371};
-		up[]={0.16673967,0.63773435,0.75199175};
-		aside[]={0.97631443,7.5640128e-007,-0.21648122};
+		pos[]={1541.5081,149.71935,7927.7583};
+		dir[]={-0.61843687,-0.43462521,0.65470356};
+		up[]={-0.29845083,0.9006114,0.31595275};
+		aside[]={0.72695446,0,0.68668556};
 	};
 };
 binarizationWanted=0;
-sourceName="HeartsandMindsMar23";
+sourceName="Diyala";
 addons[]=
 {
 	"A3_Ui_F",
@@ -44546,7 +44546,7 @@ class Mission
 									class Attributes
 									{
 										rank="CAPTAIN";
-										init="call{group this setgroupid [""CROSSROADS""];};" \n "this setVariable [""side_mission"",true];" \n "this setVariable [""interpreter"",true];" \n "this setVariable [""APW_initAddaction"",true];";
+										init="call{group this setgroupid [""CROSSROADS""];};" \n "this setVariable [""side_mission"",true];" \n "this setVariable [""interpreter"",true];";
 										description="Company Commander @ CROSSROADS";
 										isPlayable=1;
 										class Inventory
@@ -44882,7 +44882,7 @@ class Mission
 									class Attributes
 									{
 										rank="SERGEANT";
-										init="this setVariable [""interpreter"",true];" \n "this setVariable [""APW_initAddaction"",true];";
+										init="call{group this setgroupid [""Alpha""];};" \n "this setVariable [""interpreter"",true];" \n "";
 										description="Alpha Squad Leader@Alpha (Infantry)";
 										isPlayable=1;
 										class Inventory
@@ -45154,8 +45154,8 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={1553.4458,38.060776,8076.6533};
-										angles[]={0.0024897563,3.2067456,0.0075011365};
+										position[]={1553.446,38.060772,8076.6538};
+										angles[]={0.0024958209,3.2067459,0.0075049158};
 									};
 									side="West";
 									flags=4;
@@ -47741,7 +47741,7 @@ class Mission
 									class Attributes
 									{
 										rank="SERGEANT";
-										init="this setVariable [""interpreter"",true];" \n "this setVariable [""APW_initAddaction"",true];";
+										init="call{group this setgroupid [""Bravo""];};" \n "this setVariable [""interpreter"",true];" \n "";
 										description="Bravo Squad Leader@Bravo (Infantry)";
 										isPlayable=1;
 										class Inventory
@@ -49180,8 +49180,8 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={1565.6642,38.134491,8074.1567};
-										angles[]={0.0024897563,3.20117,0.0049914722};
+										position[]={1565.6639,38.134491,8074.1567};
+										angles[]={0.0024958209,3.2011783,0.0049916417};
 									};
 									side="West";
 									flags=4;
@@ -50604,7 +50604,7 @@ class Mission
 									class Attributes
 									{
 										rank="SERGEANT";
-										init="this setVariable [""interpreter"",true];" \n "this setVariable [""APW_initAddaction"",true];";
+										init="call{group this setgroupid [""Charlie""];};" \n "this setVariable [""interpreter"",true];";
 										description="Charlie Squad Leader@Charlie (Infantry)";
 										isPlayable=1;
 										class Inventory
@@ -52535,8 +52535,8 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={1575.7562,38.180187,8072.3052};
-										angles[]={0.0024897563,3.2003324,0.0024897563};
+										position[]={1575.756,38.180187,8072.3047};
+										angles[]={0.0024958209,3.2003403,0.0024958209};
 									};
 									side="West";
 									flags=4;
@@ -56015,8 +56015,8 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={1583.4425,38.190041,8072.8281};
-										angles[]={0,3.2719986,0.0024897563};
+										position[]={1583.443,38.190041,8072.8276};
+										angles[]={0,3.2720037,0.0024958209};
 									};
 									side="West";
 									flags=6;
