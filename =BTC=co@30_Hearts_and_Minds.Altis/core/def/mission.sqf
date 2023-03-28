@@ -508,7 +508,9 @@ btc_construction_array =
             "Land_Cargo_House_V1_F",
             "WireFence",
             "Wire",
-            "Land_LampShabby_F"
+            "Land_LampShabby_F",
+            "rhs_pontoon_end_static",
+            "rhs_pontoon_static"
         ],
         [
             //"Static"

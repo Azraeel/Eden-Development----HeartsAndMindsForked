@@ -30,6 +30,7 @@ _vehtomark = [
 "UK3CB_ION_I_Urban_M113_supply",
 
 // REPAIR, REARM, REFUEL, & FLATBED
+"UK3CB_KDF_B_Gaz66_Radio",
 "UK3CB_ION_I_Urban_T810_Recovery",
 "UK3CB_ION_I_Urban_T810_Reammo",
 "UK3CB_ION_I_Urban_T810_Repair",

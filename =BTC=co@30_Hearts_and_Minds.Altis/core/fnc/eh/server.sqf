@@ -161,6 +161,7 @@ if (btc_p_respawn_ticketsAtStart >= 0) then {
 "UK3CB_ION_I_Urban_T810_Reammo",
 "UK3CB_ION_I_Urban_T810_Repair",
 "UK3CB_ION_I_Urban_T810_Refuel",
+"UK3CB_KDF_B_Gaz66_Radio",
 // HELI CARGO
 "UK3CB_ION_I_Urban_Merlin"
 
@@ -210,7 +211,9 @@ if (btc_p_respawn_ticketsAtStart >= 0) then {
 "UK3CB_ION_B_Urban_MELB_MH6M",
 // HELI ATTACK
 "UK3CB_ION_I_Urban_Orca_Armed_CAS",
-"UK3CB_ION_I_Urban_MELB_AH6M"
+"UK3CB_ION_I_Urban_MELB_AH6M",
+//MOTORBIKE
+"UK3CB_ION_I_Urban_M1030"
 ];
 
 
