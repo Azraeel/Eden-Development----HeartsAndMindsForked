@@ -7,50 +7,52 @@ _cfg = configFile >> "cfgVehicles";
 _vehtomark = [];
 
 _vehtomark = [
-// EDEN - MASTER CONFIG - VEHICLES TO BE MARKED
+// EDEN - CONFIG - VEHICLES TO BE MARKED
 // Medical Vehicle
-"UK3CB_CW_US_B_LATE_UH1H_MED", 
-"rhsusf_m113d_usarmy_medical", 
-// Humvee unarmed and armed
-"rhsusf_m998_d_4dr", 
-"rhsusf_m998_d_2dr_halftop", 
-"rhsusf_m1043_d", 
-"rhsusf_m1043_d_m2", 
-"rhsusf_m1043_d_mk19",
-"rhsusf_m1152_sicps_usarmy_d", 
-"rhsusf_m1045_d", // TOW
+"UK3CB_ION_I_Urban_Bell412_Medic",
+"UK3CB_ION_B_Urban_Hilux_Ambulance", 
+
+// Humvee MRAP and SUV unarmed and armed
+"UK3CB_ION_I_Urban_Offroad_Service",
+"UK3CB_ION_I_Urban_MaxxPro_M2",
+"UK3CB_ION_I_Urban_MaxxPro_MK19",
+"UK3CB_ION_I_Urban_LR_M2",
+"UK3CB_ION_I_Urban_Offroad_M2",
+"UK3CB_ION_I_Urban_Pickup_M2",
+"UK3CB_ION_I_Urban_SUV_Armed",
+"UK3CB_ION_I_Urban_LSV_02_Armed",
+"UK3CB_ION_I_Urban_LSV_02_AT",
+"UK3CB_ION_I_Urban_LR_Open",
+"UK3CB_ION_I_Urban_MB4WD_Unarmed",
+"UK3CB_ION_I_Urban_Landcruiser",
+
 // M113
-"rhsusf_m113d_usarmy_M240", 
-"rhsusf_m113d_usarmy", 
-"rhsusf_m113d_usarmy_MK19", 
-// BRADLEY
-"RHS_M2A2",
-"RHS_M6", 
-// PALADIN ARTY
-"rhsusf_m109d_usarmy",
-// M119 HOWITZER 
-"RHS_M119_D",
-"itc_land_rhsusf_m119_d",
-// MTVR OPEN, CLOSED, AND FLATBED 
-"UK3CB_B_MTVR_Open_DES", 
-"UK3CB_B_MTVR_Closed_DES",
-"UK3CB_B_MTVR_Recovery_DES",
-//  HEMTT REPAIR, REARM, REFUEL, & FLATBED
-"rhsusf_M977A4_REPAIR_usarmy_d",
-"rhsusf_M977A4_AMMO_usarmy_d",
-"rhsusf_M978A4_usarmy_d",
-"rhsusf_M977A4_usarmy_d",
-"rhsusf_M1078A1R_SOV_M2_D_fmtv_socom",
+"UK3CB_ION_I_Urban_M113_supply",
+
+// REPAIR, REARM, REFUEL, & FLATBED
+"UK3CB_ION_I_Urban_T810_Recovery",
+"UK3CB_ION_I_Urban_T810_Reammo",
+"UK3CB_ION_I_Urban_T810_Repair",
+"UK3CB_ION_I_Urban_T810_Refuel",
+
 // HELI UNARMED/ DOOR GUNS
-"RHS_MELB_MH6M",
-"UK3CB_CW_US_B_LATE_UH1H_M240",
-"RHS_UH60M_d",
+"UK3CB_ION_B_Urban_MELB_MH6M",
+"UK3CB_ION_B_Urban_Orca",
+
 // HELI CARGO
-"RHS_CH_47F_10",
+"UK3CB_ION_I_Urban_Merlin",
+
 // HELI ATTACK
-"RHS_MELB_AH6M",
-"fza_ah64d_b2e_nr",
-"UK3CB_CW_US_B_LATE_UH1H_GUNSHIP"
+"UK3CB_ION_I_Urban_Orca_Armed_CAS",
+"UK3CB_ION_I_Urban_MELB_AH6M",
+
+// Armed gunboat and rhib
+"UK3CB_MDF_B_RHIB_Gunboat",
+"UK3CB_FIA_B_Fishing_Boat_SPG9",
+
+//STRYKER
+"rhsusf_stryker_m1132_m2_wd"
+// BRADLEY
 ];
 
 
