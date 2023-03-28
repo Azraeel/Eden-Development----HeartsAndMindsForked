@@ -135,7 +135,6 @@ btc_global_reputation = profileNamespace getVariable [format ["btc_hm_%1_rep", _
 {deleteVehicle _x} forEach (getMissionLayerEntities "btc_vehicles" select 0);
 if !(isNil "btc_vehicles") then {
     {deleteVehicle _x} forEach btc_vehicles;
-    {deleteVehicle _x} forEach btc_veh_respawnable;
     btc_vehicles = [];
 };
 
