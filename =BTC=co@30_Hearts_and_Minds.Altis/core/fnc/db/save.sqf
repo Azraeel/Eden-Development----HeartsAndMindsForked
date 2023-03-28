@@ -132,7 +132,7 @@ profileNamespace setVariable [format ["btc_hm_%1_fobs", _name], +_fobs];
 
 //Vehicles status
 private _array_veh = [];
-private _vehicles = btc_vehicles + btc_veh_respawnable - [objNull];
+private _vehicles = btc_vehicles - [objNull];
 private _vehiclesNotInCargo = _vehicles select {
     isNull isVehicleCargo _x &&
     {isNull isVehicleCargo attachedTo _x}
