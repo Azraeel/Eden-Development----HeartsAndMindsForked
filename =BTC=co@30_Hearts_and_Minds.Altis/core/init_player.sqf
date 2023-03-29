@@ -87,7 +87,7 @@ if ((_UnitRole == "Company Commander @ CROSSROADS")
     or (_UnitRole == "Alpha Squad Leader@Alpha (Infantry)")
     or (_UnitRole == "Bravo Squad Leader@Bravo (Infantry)")
     or (_UnitRole == "Charlie Squad Leader@Charlie (Infantry)")) then {
-player setVariable ["APW_initRadioTrig",true];
+player setVariable ["APW_initAddaction",true];
 };
 
 
