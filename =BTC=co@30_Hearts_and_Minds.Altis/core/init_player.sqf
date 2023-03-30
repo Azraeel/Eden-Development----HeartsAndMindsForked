@@ -99,3 +99,47 @@ if ((_UnitRole == "Company Commander @ CROSSROADS")
 };
 
 [player,"initPlayer"] call APW_fnc_APWMain;
+
+
+
+if isPlayer then
+{
+	[] spawn
+	{
+		while {true} do
+		{
+			// Define the UI number
+            _myNumber = BTC_Global_Reputation;
+
+            // Get the display and create a new control for the HUD item
+            _myDisplay = uiNamespace getVariable "RscDisplayMission";
+            _myHudControl = _myDisplay ctrlCreate ["RscText", 69420];
+            _myHudControl ctrlSetFont "PuristaMedium";
+            _myHudControl ctrlSetTextColor [1,1,1,1];
+
+            // Update the HUD item with the latest UI number
+            _myHudControl ctrlSetText format ["$%1", _myNumber];
+
+            // Define the position and size of the HUD item
+            _hudX = safeZoneX + 2.2;
+            _hudY = safeZoneY + 0.055;
+            _hudW = safeZoneW / 4;  // width of 1/4 of the HUD
+            _hudH = safeZoneH / 6;  // height of 1/6 of the HUD
+
+            // Set the position and size of the HUD item
+            _myHudControl ctrlSetPosition [_hudX, _hudY, _hudW, _hudH];
+            _myHudControl ctrlSetBackgroundColor [0, 0, 0, 0.5];  // black background with 50% transparency
+            _myHudControl ctrlCommit 0;
+
+            // Show the HUD item
+            _myHudControl ctrlShow true;
+
+        //SLEEP
+        sleep 30;
+
+            // Clear the existing HUD item
+            _display = uiNamespace getVariable "RscDisplayMission";
+            ctrlDelete (_display displayctrl 69420);
+		};
+	};
+};
