@@ -101,9 +101,7 @@ if ((_UnitRole == "Company Commander @ CROSSROADS")
 [player,"initPlayer"] call APW_fnc_APWMain;
 
 
-
-if isPlayer then
-{
+if {true} do {
 	[] spawn
 	{
 		while {true} do
@@ -141,5 +139,5 @@ if isPlayer then
             _display = uiNamespace getVariable "RscDisplayMission";
             ctrlDelete (_display displayctrl 69420);
 		};
-	};
-};
+    };
+}:
