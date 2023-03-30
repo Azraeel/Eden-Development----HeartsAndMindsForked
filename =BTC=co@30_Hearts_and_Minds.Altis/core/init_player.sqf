@@ -124,11 +124,11 @@ if isPlayer then
             _hudX = safeZoneX + 2.2;
             _hudY = safeZoneY + 0.055;
             _hudW = safeZoneW / 4;  // width of 1/4 of the HUD
-            _hudH = safeZoneH / 6;  // height of 1/6 of the HUD
+            _hudH = safeZoneH / 30;  // height of 1/6 of the HUD
 
             // Set the position and size of the HUD item
             _myHudControl ctrlSetPosition [_hudX, _hudY, _hudW, _hudH];
-            _myHudControl ctrlSetBackgroundColor [0, 0, 0, 0.5];  // black background with 50% transparency
+            _myHudControl ctrlSetBackgroundColor [0, 0, 0, 0.1];  // black background with 50% transparency
             _myHudControl ctrlCommit 0;
 
             // Show the HUD item
