@@ -101,7 +101,7 @@ if ((_UnitRole == "Company Commander @ CROSSROADS")
 [player,"initPlayer"] call APW_fnc_APWMain;
 
 
-if {true} do {
+if isMultiplayer do {
 	[] spawn
 	{
 		while {true} do
