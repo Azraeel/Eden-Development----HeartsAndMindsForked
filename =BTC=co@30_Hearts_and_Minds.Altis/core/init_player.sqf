@@ -101,7 +101,6 @@ if ((_UnitRole == "Company Commander @ CROSSROADS")
 [player,"initPlayer"] call APW_fnc_APWMain;
 
 
-if isMultiplayer do {
 	[] spawn
 	{
 		while {true} do
@@ -140,4 +139,3 @@ if isMultiplayer do {
             ctrlDelete (_display displayctrl 69420);
 		};
     };
-};
