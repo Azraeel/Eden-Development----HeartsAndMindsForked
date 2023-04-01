@@ -134,8 +134,8 @@ if ((_UnitRole == "Company Commander @ CROSSROADS")
             // Show the HUD item 
             _myHudControl ctrlShow true;
 
-            //SLEEP  CHANGE TO 30/60
-            sleep 2;
+            //SLEEP  CHANGE TO 15/30/60
+            sleep 15;
 
             // Clear the existing HUD item
             _display = uiNamespace getVariable "RscDisplayMission";
