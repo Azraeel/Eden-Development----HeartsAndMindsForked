@@ -106,7 +106,7 @@ if ((_UnitRole == "Company Commander @ CROSSROADS")
 		while {true} do
 		{
             // Define the UI number 
-            _myNumber = BTC_Global_Reputation; 
+            _myNumber = btc_global_economy; 
             _CurrentPlayers = count allPlayers; 
             
             
@@ -117,7 +117,7 @@ if ((_UnitRole == "Company Commander @ CROSSROADS")
             _myHudControl ctrlSetTextColor [1,1,1,1]; 
             
             // Update the HUD item with the latest UI number 
-            _myHudControl ctrlSetText format ["Online Players : %2 | Current Money : %1", _myNumber, _currentplayers]; 
+            _myHudControl ctrlSetText format ["Online Players : %2 | Current Money : $%1", _myNumber, _currentplayers]; 
             
             // Define the position and size of the HUD item 
             _hudX = safeZoneX + 0.4 * safeZoneW; 
