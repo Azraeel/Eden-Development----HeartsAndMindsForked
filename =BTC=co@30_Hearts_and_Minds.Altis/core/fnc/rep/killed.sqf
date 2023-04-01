@@ -28,6 +28,11 @@ if (
     {!isAgent teamMember _unit}
 ) exitWith {};
 
+//ECONOMY
+[west, 1, false] call acex_fortify_fnc_updateBudget;
+btc_global_economy = btc_global_economy + 1;
+
+
 if (isPlayer _instigator) then {
     private _isAgent = isAgent teamMember _unit;
     [

@@ -12,7 +12,7 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=536;
+		nextID=542;
 	};
 	class Camera
 	{
@@ -23,7 +23,7 @@ class EditorData
 	};
 };
 binarizationWanted=0;
-sourceName="Diyala";
+sourceName="HnM";
 addons[]=
 {
 	"A3_Ui_F",

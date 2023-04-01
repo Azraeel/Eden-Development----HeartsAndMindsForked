@@ -131,6 +131,10 @@ private _fobs = +(profileNamespace getVariable [format ["btc_hm_%1_fobs", _name]
 //REP
 btc_global_reputation = profileNamespace getVariable [format ["btc_hm_%1_rep", _name], 0];
 
+
+//ECONOMY
+btc_global_economy = profileNamespace getVariable [format ["btc_hm_%1_eco", _name], 0];
+
 //Objects
 {deleteVehicle _x} forEach (getMissionLayerEntities "btc_vehicles" select 0);
 if !(isNil "btc_vehicles") then {
