@@ -67,6 +67,8 @@ if (
     [btc_player_side, _tickets] call BIS_fnc_respawnTickets;
 };
 
+// ECONOMY
+publicVariable "btc_global_economy";
 
 //EDEN - MAP MARKERS
 { 

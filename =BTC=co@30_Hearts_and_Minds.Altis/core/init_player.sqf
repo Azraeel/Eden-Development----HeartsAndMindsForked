@@ -103,7 +103,6 @@ if ((_UnitRole == "Company Commander @ CROSSROADS")
 
 [player,"initPlayer"] call APW_fnc_APWMain;
 
-
 [] spawn
 	{
 		while {true} do
