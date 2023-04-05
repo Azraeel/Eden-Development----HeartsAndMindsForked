@@ -149,7 +149,7 @@ if (btc_p_respawn_ticketsAtStart >= 0) then {
 {
     [_x, "InitPost", {
         params ["_obj"];
-        [_obj, 10] ace_cargo_fnc_setSize;
+        [_obj, 10] call ace_cargo_fnc_setSize;
     }, true, [], true] call CBA_fnc_addClassEventHandler;
 } forEach [
     "rhs_pontoon_end_static",
