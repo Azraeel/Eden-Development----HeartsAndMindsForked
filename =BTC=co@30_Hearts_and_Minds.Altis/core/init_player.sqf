@@ -112,7 +112,6 @@ if ((_UnitRole == "Company Commander @ CROSSROADS")
             _myNumber = btc_global_economy; 
             _CurrentPlayers = count allPlayers; 
             
-            
             // Get the display and create a new control for the HUD item 
             _myDisplay = uiNamespace getVariable "RscDisplayMission"; 
             _myHudControl = _myDisplay ctrlCreate ["RscText", 69420]; 
@@ -127,7 +126,6 @@ if ((_UnitRole == "Company Commander @ CROSSROADS")
             _hudY = safeZoneY; 
             _hudW = safeZoneW / 5;  // width of 1/4 of the HUD 
             _hudH = safeZoneH / 30;  // height of 1/6 of the HUD 
-            
             
             // Set the position and size of the HUD item 
             _myHudControl ctrlSetPosition [_hudX, _hudY, _hudW, _hudH]; 

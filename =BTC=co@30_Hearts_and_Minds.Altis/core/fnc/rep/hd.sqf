@@ -58,7 +58,7 @@ if !(isServer) exitWith {
 //    _instigator
 //] call btc_rep_fnc_change;
 
-if (btc_global_reputation < btc_rep_level_normal + 100) then {[getPos _unit] call btc_rep_fnc_eh_effects;};
+//if (btc_global_reputation < btc_rep_level_normal + 100) then {[getPos _unit] call btc_rep_fnc_eh_effects;};
 
 // TEMP TET 
 //[format ["DAMAGE from %1 to %2",_injurer,_unit], "REP: ", [true, true, true]] call CBA_fnc_debug;
