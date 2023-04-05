@@ -131,13 +131,13 @@ if (_data_units isNotEqualTo []) then {
     });
 
     if (_has_en) then {
-        private _finalNumberOfGroup = _p_mil_group_ratio * _numberOfGroup * _PlayerScale;
+        private _finalNumberOfGroup = floor (_p_mil_group_ratio * _numberOfGroup * _PlayerScale);
         private _numberOfHouseGroup = _finalNumberOfGroup * btc_p_mil_wp_houseDensity;
         for "_i" from 1 to round _finalNumberOfGroup do {
             [
                 _city,
                 [_spawningRadius, _spawningRadius/2] select (_i <= _numberOfHouseGroup),
-                2 + round random 2,
+                2 + round random 3,
                 [["PATROL", "SENTRY"] selectRandomWeighted [0.7, 0.3], "HOUSE"] select (_i <= _numberOfHouseGroup)
             ] call btc_mil_fnc_create_group;
         };
