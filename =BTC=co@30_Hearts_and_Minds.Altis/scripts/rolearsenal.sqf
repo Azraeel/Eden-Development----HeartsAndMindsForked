@@ -617,6 +617,10 @@ roleArsenal = {
 "rhs_weap_fnmag", "rhsusf_100Rnd_762x51", "rhsusf_100Rnd_762x51_m62_tracer", "rhsusf_100Rnd_762x51_m61_ap", "rhsusf_acc_acog_mdo", "rhsusf_acc_acog_rmr",
 "rhs_weap_m249", "rhsusf_200Rnd_556x45_M855_soft_pouch_coyote", "rhsusf_200Rnd_556x45_M855_mixed_soft_pouch_coyote", "rhsusf_100Rnd_556x45_M855_soft_pouch_coyote", "rhsusf_100Rnd_556x45_M855_mixed_soft_pouch_coyote", "rhsusf_acc_saw_bipod",
 "rhs_weap_m249_pip", "rhsusf_200Rnd_556x45_M855_soft_pouch_coyote", "rhsusf_200Rnd_556x45_M855_mixed_soft_pouch_coyote", "rhsusf_100Rnd_556x45_M855_soft_pouch_coyote", "rhsusf_100Rnd_556x45_M855_mixed_soft_pouch_coyote", "rhsusf_acc_acog_rmr", "rhsusf_acc_eotech_552", "rhsusf_acc_saw_bipod","rhsusf_acc_su230_mrds",
+"rhs_weap_mg42", "rhsgref_mg42_acc_aasight","rhsgref_296Rnd_792x57_SmK_belt","rhsgref_296Rnd_792x57_SmK_alltracers_belt","rhs_weap_pkp","rhs_acc_pkas","rhs_acc_okp7_dovetail","rhs_100Rnd_762x54mmR_7N26","rhs_100Rnd_762x54mmR_green",
+"UK3CB_MG3_KWS_B","rhsusf_acc_anpeq15side_bk","rhsusf_acc_eotech_552","rhsusf_acc_acog_mdo","rhsusf_acc_acog_rmr","UK3CB_MG3_100rnd_762x51_GT","UK3CB_MG3_100rnd_762x51_RT",
+"UK3CB_MG3_100rnd_762x51_YT","UK3CB_MG3_100rnd_762x51_WT","UK3CB_MG3_100rnd_762x51","UK3CB_MG3_250rnd_762x51_GT","UK3CB_MG3_250rnd_762x51_RT","UK3CB_MG3_250rnd_762x51_WT","UK3CB_MG3_250rnd_762x51_YT","UK3CB_MG3_250rnd_762x51",
+"UK3CB_MG3_250rnd_762x51_GM","UK3CB_MG3_250rnd_762x51_RM","UK3CB_MG3_250rnd_762x51_WM","UK3CB_MG3_250rnd_762x51_YM",
 //SECONDARY
 //LAUNCHER
 //HELM
@@ -776,9 +780,10 @@ roleArsenal = {
 "UK3CB_M16A2_UGL", "rhs_mag_30Rnd_556x45_M855_Stanag", "rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red", "ACE_30Rnd_556x45_Stanag_M995_AP_mag", "rhs_mag_M433_HEDP", "rhs_mag_M397_HET", "rhs_mag_M441_HE", "rhs_mag_m576", "ACE_40mm_Flare_white", "rhs_mag_m713_Red", "rhs_mag_m714_White", "rhs_mag_m715_Green", "rhs_mag_m716_yellow", "ACE_40mm_Flare_ir",
 "rhs_weap_m21a_pr_pbg40", "rhsgref_30rnd_556x45_m21", "rhsgref_30rnd_556x45_m21_t", "rhs_GRD40_Green", "rhs_GRD40_Red", "rhs_GRD40_White", "rhs_VG40MD", "rhs_VG40OP_white", "rhs_VOG25", "rhs_VOG25P", "rhsusf_acc_nt4_black", "rhs_acc_2dpzenit", "rhs_acc_perst1ik", "rhs_acc_1p87", "rhs_acc_ekp8_18", "rhsusf_acc_acog_rmr", "rhsusf_acc_acog_usmc", "rhsusf_acc_g33_xps3", "rhsusf_acc_compm4", "rhsusf_acc_su230",  "a3cn_anpvs4",
 "rhs_weap_m4a1_m320", "rhs_mag_30Rnd_556x45_M855_Stanag", "rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red", "ACE_30Rnd_556x45_Stanag_M995_AP_mag", "rhs_mag_M433_HEDP", "rhs_mag_M397_HET", "rhs_mag_M441_HE", "rhs_mag_m576", "ACE_40mm_Flare_white", "rhs_mag_m713_Red", "rhs_mag_m714_White", "rhs_mag_m715_Green", "rhs_mag_m716_yellow", "ACE_40mm_Flare_ir", "rhsusf_acc_acog_usmc", "rhsusf_acc_acog_rmr", "rhsusf_acc_nt4_black", "rhsusf_acc_anpeq15side_bk", "rhsusf_acc_compm4", "rhsusf_acc_elcan",
-"rhs_weap_ak74m_gp25", "rhs_30Rnd_762x39mm_polymer", "rhs_30Rnd_762x39mm_polymer_tracer", "rhs_GRD40_Green", "rhs_GRD40_Red", "rhs_GRD40_White", "rhs_VG40MD", "rhs_VG40OP_white", "rhs_VOG25", "rhs_VOG25P", "rhs_acc_dtk4screws", "rhs_acc_okp7_dovetail", "rhs_acc_1p78", "rhs_acc_pkas",
+"rhs_weap_ak74m_gp25","rhs_30Rnd_545x39_7N10_AK","rhs_30Rnd_545x39_7N22_AK","rhs_GRD40_Green", "rhs_GRD40_Red", "rhs_GRD40_White", "rhs_VG40MD", "rhs_VG40OP_white", "rhs_VOG25", "rhs_VOG25P", "rhs_acc_dtk4screws", "rhs_acc_okp7_dovetail", "rhs_acc_1p78", "rhs_acc_pkas",
 "rhs_weap_m79", "rhs_mag_M433_HEDP", "rhs_mag_M397_HET", "rhs_mag_M441_HE", "rhs_mag_m576", "ACE_40mm_Flare_white", "rhs_mag_m713_Red", "rhs_mag_m714_White", "rhs_mag_m715_Green", "rhs_mag_m716_yellow", "ACE_40mm_Flare_ir",
 "UK3CB_MP5N_UGL", "rhsusf_acc_wmx_bk", "UK3CB_MP5_30Rnd_9x19_Magazine", "UK3CB_MP5_30Rnd_9x19_Magazine_RT", "uk3cb_muzzle_snds_mp5", "uk3cb_acc_surefiregrip", "rhsusf_acc_rx01_nofilter","rhsusf_acc_su230_mrds",
+
 //SECONDARY
 //LAUNCHER
 //HELM
