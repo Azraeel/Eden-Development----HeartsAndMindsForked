@@ -134,6 +134,7 @@ btc_global_reputation = profileNamespace getVariable [format ["btc_hm_%1_rep", _
 
 //ECONOMY
 btc_global_economy = profileNamespace getVariable [format ["btc_hm_%1_eco", _name], 0];
+publicVariable "btc_global_economy";
 
 //Objects
 {deleteVehicle _x} forEach (getMissionLayerEntities "btc_vehicles" select 0);

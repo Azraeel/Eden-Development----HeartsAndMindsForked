@@ -43,10 +43,28 @@ if (btc_debug) then {
 _city enableSimulation false;
 _city setVariable ["active", true];
 
+/*
+30 - 1 (100%)
+15 - 0.5 (50%)
+10 - 0.33 (30%)
+5 - 0.16 (15%)
+1 - 0.1(10%)
+
+Min - 20% = 0.2
+Max - 100% = 1
+
+Max 0.2
+Min 1
+
+15x = 0.5
+30x = 1
+x = 0.03
+*/
+
 // Create Scaling Multiplier 
 private _CurrentPlayers = count allPlayers;
 //private _currentPlayers = west countSide allUnits;
-private _PlayerScale = ((floor (_CurrentPlayers / 5)) max 1) min 4;
+private _PlayerScale = ((_CurrentPlayers * 0.03) max 0.2) min 1;
 
 private _data_units = _city getVariable ["data_units", []];
 private _data_animals = _city getVariable ["data_animals", []];
