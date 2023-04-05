@@ -29,14 +29,36 @@ At the beginning you have a very low reputation level, so civilians won't help y
 # :sparkles: Features:
 
 ## :memo: EDEN specific Changes
-- 
-    - 
-    -
-    -
--
-    -
-    -
-    -
+- CAS Script
+    - Based on INC AWP CAS script
+    - AI air support for low population scenarios
+    - Potential to add custom munitions
+    - Realistic request sequence using radio triggers and action menu
+- Custom Arsenal
+    - Ability to whitelist and blacklist all arsenal items for each role
+    - Easily allows different mission equipment for different maps/scenarios
+- Modified Reputation System
+    - Custom take on the existing code
+    - Suitable for larger multiplayer environments
+- Economy System
+    - ACE fortify based system
+    - Allows players to purchase heavier assets with procured points
+    - Interchangeable asset list
+    - Configurable scoring capacity
+- Revised Rally Point System
+    - Changed to be multiplayer ready for dedicated servers
+- Custom map marker system
+    - Added markers for objectives to suit longer sessions
+    - Added empty vehicle markers to track BLUFOR assets around the map
+- Medevac Support System
+    - Modification of the BIS support module to be suitable for dedicated servers
+    - Added due to the scenarios created using more complex medical mods/systems
+    - Allows medics to call in a MEDEVAC helicopter to their location to pick up casualties
+- Reworked Contamination System
+    - Removed DLC dependencies to be more accessible for other playerbases
+- Advanced Player Scaling
+    - Added code to scale AI group numbers depending on population of the server
+    - Scales from 1-4x in a linear manner, for every 5 players up to 20 connected clients
 
 ## :book: Original Features
 
@@ -74,7 +96,6 @@ At the beginning you have a very low reputation level, so civilians won't help y
     - Full saving Database ([even player markers](http://vdauphin.github.io/HeartsAndMinds/InGame-documentation#headless--database))
     - Easy map change (See [here](http://vdauphin.github.io/HeartsAndMinds/Change-MAP-of-Hearts-and-Minds))
     - ACE Headless support
-- Something I forgot for sure
 
 # :clap: Credits:
 - =BTC= clan
