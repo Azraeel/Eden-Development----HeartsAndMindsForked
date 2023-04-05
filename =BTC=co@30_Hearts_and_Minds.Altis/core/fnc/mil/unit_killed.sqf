@@ -35,5 +35,5 @@ if (isPlayer _instigator) then {
     //ECONOMY
     [west, 1, false] call acex_fortify_fnc_updateBudget;
     btc_global_economy = btc_global_economy + 1;
-    publicVariable "btc_global_economy"
+    publicVariable "btc_global_economy";
 };

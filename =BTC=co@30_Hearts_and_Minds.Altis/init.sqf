@@ -34,7 +34,7 @@ true
   params ["_player", "_side", "_objectPlaced"];
     _objectPlaced call btc_veh_fnc_add;
     btc_global_economy = [west] call acex_fortify_fnc_getBudget;
-    publicVariable "btc_global_economy"
+    publicVariable "btc_global_economy";
     clearWeaponCargoGlobal _objectPlaced;
     clearItemCargoGlobal _objectPlaced;
     clearMagazineCargoGlobal _objectPlaced;
@@ -45,7 +45,7 @@ true
   params ["_player", "_side", "_objectDeleted"];
    [] spawn { sleep 5; btc_global_economy = [west] call acex_fortify_fnc_getBudget;
 }
-publicVariable "btc_global_economy"
+publicVariable "btc_global_economy";
 }] call CBA_fnc_addEventHandler;
 
 [{
