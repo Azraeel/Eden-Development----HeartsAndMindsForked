@@ -46,14 +46,11 @@ _city setVariable ["active", true];
 /*
 30 - 1 (100%)
 15 - 0.5 (50%)
-10 - 0.33 (30%)
-5 - 0.16 (15%)
-1 - 0.1(10%)
 
-Min - 20% = 0.2
+Min - 50% = 0.5
 Max - 100% = 1
 
-Max 0.2
+Max 0.5
 Min 1
 
 15x = 0.5
@@ -64,7 +61,7 @@ x = 0.03
 // Create Scaling Multiplier 
 private _CurrentPlayers = count allPlayers;
 //private _currentPlayers = west countSide allUnits;
-private _PlayerScale = ((_CurrentPlayers * 0.03) max 0.4) min 1;
+private _PlayerScale = ((_CurrentPlayers * 0.03) max 0.5) min 1;
 
 private _data_units = _city getVariable ["data_units", []];
 private _data_animals = _city getVariable ["data_animals", []];
@@ -120,16 +117,16 @@ if (_data_units isNotEqualTo []) then {
 } else {
     // Maximum number of enemy group
     private _numberOfGroup = (switch _type do {
-        case "Hill" : {4};
-        case "VegetationFir" : {4};
-        case "BorderCrossing" : {7};
-        case "NameLocal" : {7};
-        case "StrongpointArea" : {8};
-        case "NameVillage" : {8};
+        case "Hill" : {6};
+        case "VegetationFir" : {6};
+        case "BorderCrossing" : {9};
+        case "NameLocal" : {9};
+        case "StrongpointArea" : {10};
+        case "NameVillage" : {10};
         case "NameCity" : {16};
         case "NameCityCapital" : {32};
         case "Airport" : {32};
-        case "NameMarine" : {4};
+        case "NameMarine" : {6};
         default {0};
     });
 
@@ -208,7 +205,7 @@ if (btc_p_animals_group_ratio > 0) then {
 
 if (_city getVariable ["spawn_more", false]) then {
     _city setVariable ["spawn_more", false];
-    private _finalNumberOfGroup = _p_mil_group_ratio * 5 * _PlayerScale;
+    private _finalNumberOfGroup = _p_mil_group_ratio * 5; //* _PlayerScale; TET - CONFIG - Remove scaling from side mission response.
     private _numberOfHouseGroup = _finalNumberOfGroup * btc_p_mil_wp_houseDensity;
     for "_i" from 1 to round _finalNumberOfGroup do {
         [
