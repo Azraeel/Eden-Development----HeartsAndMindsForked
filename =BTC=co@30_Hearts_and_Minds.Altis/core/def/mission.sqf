@@ -693,33 +693,33 @@ btc_spect_range = 1000;
 btc_spect_updateOn = -1;
 
 //Rep
-btc_rep_bonus_cache = 200;
-btc_rep_bonus_civ_hh = 10;
-btc_rep_bonus_disarm = 60;
-btc_rep_bonus_hideout = 300;
-btc_rep_bonus_mil_killed = 1;
-btc_rep_bonus_IEDCleanUp = 30;
-btc_rep_bonus_removeTag = 5;
-btc_rep_bonus_removeTagLetter = 3;
-btc_rep_bonus_foodGive = 5;
+btc_rep_bonus_cache = 100;
+btc_rep_bonus_civ_hh = 3;
+btc_rep_bonus_disarm = 15;
+btc_rep_bonus_hideout = 200;
+btc_rep_bonus_mil_killed = 0.25;
+btc_rep_bonus_IEDCleanUp = 10;
+btc_rep_bonus_removeTag = 3;
+btc_rep_bonus_removeTagLetter = 0.5;
+btc_rep_bonus_foodGive = 0.5;
+btc_rep_malus_veh_killed = 10;
 
-btc_rep_malus_civ_hd = - 0;
-btc_rep_malus_animal_hd = - 0;
-btc_rep_malus_civ_killed = - 20;
+btc_rep_malus_civ_hd = - 2;
+btc_rep_malus_animal_hd = - 1;
+btc_rep_malus_civ_killed = - 10;
 btc_rep_malus_animal_killed = - 5;
-btc_rep_malus_civ_suppressed = - 0.5;
-btc_rep_malus_player_respawn = - 0;
-btc_rep_malus_veh_killed = + 10;
+btc_rep_malus_civ_suppressed = - 4;
+btc_rep_malus_player_respawn = - 5;
 btc_rep_malus_building_damaged = - 2.5;
 btc_rep_malus_building_destroyed = - 15;
 btc_rep_malus_foodRemove = - btc_rep_bonus_foodGive;
 btc_rep_malus_breakDoor = - 1;
 btc_rep_malus_wheelChange = - 0;
 
-btc_rep_level_veryLow = 1000;
-btc_rep_level_low = 2000;
-btc_rep_level_normal = 3000;
-btc_rep_level_high = 4000;
+btc_rep_level_veryLow = 0;
+btc_rep_level_low = 200;
+btc_rep_level_normal = 500;
+btc_rep_level_high = 750;
 
 //Headless
 btc_units_owners = [];
