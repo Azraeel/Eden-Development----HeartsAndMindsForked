@@ -620,7 +620,7 @@ roleArsenal = {
 "rhs_weap_mg42", "rhsgref_mg42_acc_aasight","rhsgref_296Rnd_792x57_SmK_belt","rhsgref_296Rnd_792x57_SmK_alltracers_belt","rhs_weap_pkp","rhs_acc_pkas","rhs_acc_okp7_dovetail","rhs_100Rnd_762x54mmR_7N26","rhs_100Rnd_762x54mmR_green",
 "UK3CB_MG3_KWS_B","rhsusf_acc_anpeq15side_bk","rhsusf_acc_eotech_552","rhsusf_acc_acog_mdo","rhsusf_acc_acog_rmr","UK3CB_MG3_100rnd_762x51_GT","UK3CB_MG3_100rnd_762x51_RT",
 "UK3CB_MG3_100rnd_762x51_YT","UK3CB_MG3_100rnd_762x51_WT","UK3CB_MG3_100rnd_762x51","UK3CB_MG3_250rnd_762x51_GT","UK3CB_MG3_250rnd_762x51_RT","UK3CB_MG3_250rnd_762x51_WT","UK3CB_MG3_250rnd_762x51_YT","UK3CB_MG3_250rnd_762x51",
-"UK3CB_MG3_250rnd_762x51_GM","UK3CB_MG3_250rnd_762x51_RM","UK3CB_MG3_250rnd_762x51_WM","UK3CB_MG3_250rnd_762x51_YM",
+"UK3CB_MG3_250rnd_762x51_GM","UK3CB_MG3_250rnd_762x51_RM","UK3CB_MG3_250rnd_762x51_WM","UK3CB_MG3_250rnd_762x51_YM","rhsusf_acc_su230a_mrds",
 //SECONDARY
 //LAUNCHER
 //HELM
