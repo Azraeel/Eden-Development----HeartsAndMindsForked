@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=868;
+		nextID=875;
 	};
 	class Camera
 	{
-		pos[]={18881.805,125.12766,256.20126};
-		dir[]={-0.18799831,-0.67089081,-0.71748614};
-		up[]={-0.17008004,0.74145454,-0.64909738};
-		aside[]={-0.96743721,-1.3690442e-006,0.25349554};
+		pos[]={18858.479,90.685364,272.2825};
+		dir[]={0.72278208,-0.65949857,-0.2070822};
+		up[]={0.63411176,0.75160295,-0.18167888};
+		aside[]={-0.27545786,-1.1350785e-006,-0.96141863};
 	};
 };
 binarizationWanted=0;
@@ -33792,7 +33792,7 @@ class Mission
 							};
 							id=8007;
 							type="UK3CB_KDF_B_Gaz66_Radio";
-							atlOffset=0.0023727417;
+							atlOffset=-0.0002822876;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -33878,7 +33878,7 @@ class Mission
 						};
 					};
 					id=1750;
-					atlOffset=-0.18413544;
+					atlOffset=-0.18544769;
 				};
 				class Item7
 				{
@@ -33917,6 +33917,7 @@ class Mission
 							};
 							id=2767;
 							type="rhsusf_stryker_m1132_m2_d";
+							atlOffset=-0.00054931641;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -35628,7 +35629,7 @@ class Mission
 							};
 							id=7638;
 							type="UK3CB_ION_I_Urban_T810_Reammo";
-							atlOffset=7.6293945e-006;
+							atlOffset=-0.001701355;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -35662,6 +35663,7 @@ class Mission
 							};
 							id=7643;
 							type="UK3CB_ION_I_Urban_T810_Refuel";
+							atlOffset=-7.6293945e-005;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -35742,6 +35744,7 @@ class Mission
 							};
 							id=7641;
 							type="UK3CB_ION_I_Urban_T810_Repair";
+							atlOffset=-0.0014343262;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -35795,7 +35798,7 @@ class Mission
 						};
 					};
 					id=1754;
-					atlOffset=-0.18800354;
+					atlOffset=-0.18883514;
 				};
 				class Item8
 				{
@@ -39998,7 +40001,7 @@ class Mission
 							};
 							id=6230;
 							type="Land_Camping_Light_F";
-							atlOffset=7.6293945e-006;
+							atlOffset=-7.6293945e-006;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -40033,6 +40036,7 @@ class Mission
 							};
 							id=6231;
 							type="Land_Camping_Light_F";
+							atlOffset=7.6293945e-006;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -40067,6 +40071,7 @@ class Mission
 							};
 							id=6232;
 							type="Land_Camping_Light_F";
+							atlOffset=-7.6293945e-006;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -65501,6 +65506,7 @@ class Mission
 							};
 							id=6239;
 							type="B_Slingload_01_Ammo_F";
+							atlOffset=-7.6293945e-006;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -65534,6 +65540,7 @@ class Mission
 							};
 							id=6240;
 							type="B_Slingload_01_Fuel_F";
+							atlOffset=-1.5258789e-005;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -65567,7 +65574,7 @@ class Mission
 							};
 							id=6241;
 							type="B_Slingload_01_Repair_F";
-							atlOffset=0.0039978027;
+							atlOffset=0.0039596558;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -71728,7 +71735,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="[[[[],[]],[[""rhs_mag_30Rnd_556x45_M855_Stanag"",""rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red"",""ACE_30Rnd_556x45_Stanag_M995_AP_mag"",""rhs_mag_20Rnd_762x51_m80a1_fnfal"",""rhs_mag_20Rnd_762x51_m80_fnfal"",""rhs_mag_20Rnd_762x51_m62_fnfal"",""rhs_mag_20Rnd_762x51_m61_fnfal"",""rhssaf_30rnd_556x45_EPR_G36"",""rhssaf_30rnd_556x45_Tracers_G36"",""rhsgref_30rnd_556x45_m21"",""rhsgref_30rnd_556x45_m21_t"",""rhs_30Rnd_545x39_7N10_camo_AK"",""rhs_30Rnd_545x39_7N22_camo_AK"",""UK3CB_MP5_30Rnd_9x19_Magazine"",""UK3CB_MP5_30Rnd_9x19_Magazine_RT"",""UK3CB_AUG_30Rnd_556x45_Magazine"",""UK3CB_AUG_30Rnd_556x45_Magazine_RT"",""rhs_30Rnd_762x39mm_polymer"",""rhs_30Rnd_762x39mm_polymer_tracer"",""rhsusf_200Rnd_556x45_M855_soft_pouch_coyote"",""rhsusf_200Rnd_556x45_M855_mixed_soft_pouch_coyote"",""rhsusf_100Rnd_556x45_M855_soft_pouch_coyote"",""rhsusf_100Rnd_556x45_M855_mixed_soft_pouch_coyote"",""rhsusf_100Rnd_762x51"",""rhsusf_100Rnd_762x51_m62_tracer"",""rhsusf_100Rnd_762x51_m61_ap"",""rhsusf_20Rnd_762x51_SR25_m118_special_Mag"",""rhsusf_20Rnd_762x51_SR25_m62_Mag"",""rhsusf_20Rnd_762x51_SR25_m993_Mag""],[20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20]],[[],[]],[[],[]]],false]";
+							value="[[[[],[]],[[""rhs_mag_30Rnd_556x45_M855_Stanag"",""ACE_30Rnd_556x45_Stanag_M995_AP_mag"",""rhs_mag_20Rnd_762x51_m61_fnfal"",""rhssaf_30rnd_556x45_EPR_G36"",""rhsgref_30rnd_556x45_m21"",""rhs_30Rnd_545x39_7N10_camo_AK"",""rhs_30Rnd_545x39_7N22_camo_AK"",""UK3CB_MP5_30Rnd_9x19_Magazine"",""UK3CB_AUG_30Rnd_556x45_Magazine"",""rhs_30Rnd_762x39mm_polymer"",""rhsusf_200Rnd_556x45_M855_soft_pouch_coyote"",""rhsusf_100Rnd_762x51_m61_ap"",""rhsusf_20Rnd_762x51_SR25_m993_Mag"",""rhs_100Rnd_762x54mmR_7N26"",""UK3CB_MG3_250rnd_762x51_RT""],[20,20,20,20,20,20,20,20,20,20,20,20,20,20,20]],[[],[]],[[],[]]],false]";
 						};
 					};
 				};
@@ -71795,7 +71802,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="[[[[""rhs_weap_M136"",""rhs_weap_M136_hedp"",""rhs_weap_M136_hp"",""rhs_weap_m72a7"",""rhs_weap_fim92"",""rhs_weap_fgm148"",""rhs_weap_maaws_optic""],[10,10,10,10,2,2,4]],[[""MRAWS_HEAT_F"",""MRAWS_HE_F"",""MRAWS_HEAT55_F"",""rhs_fim92_mag"",""rhs_fgm148_magazine_AT""],[20,20,20,10,10]],[[],[]],[[],[]]],false]";
+							value="[[[[""rhs_weap_M136_hedp"",""rhs_weap_fim92"",""rhs_weap_fgm148"",""rhs_weap_maaws_optic""],[10,2,2,4]],[[""MRAWS_HEAT_F"",""MRAWS_HEAT55_F"",""rhs_fim92_mag"",""rhs_fgm148_magazine_AT""],[18,10,10,8]],[[],[]],[[],[]]],false]";
 						};
 					};
 				};
