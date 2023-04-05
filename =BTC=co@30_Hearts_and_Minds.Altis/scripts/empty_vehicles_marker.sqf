@@ -45,15 +45,17 @@ _vehtomark = [
 
 // HELI ATTACK
 "UK3CB_ION_I_Urban_Orca_Armed_CAS",
-"UK3CB_ION_I_Urban_MELB_AH6M",
+"UK3CB_ION_I_Urban_MELB_AH6M_H",
 
 // Armed gunboat and rhib
 "UK3CB_MDF_B_RHIB_Gunboat",
 "UK3CB_FIA_B_Fishing_Boat_SPG9",
 
 //STRYKER
-"rhsusf_stryker_m1132_m2_wd"
+"rhsusf_stryker_m1132_m2_wd",
 // BRADLEY
+//Motorbike
+"UK3CB_ION_I_Urban_M1030"
 ];
 
 

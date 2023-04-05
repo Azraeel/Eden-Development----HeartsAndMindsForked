@@ -223,7 +223,7 @@ if (btc_p_respawn_ticketsAtStart >= 0) then {
 "UK3CB_ION_B_Urban_MELB_MH6M",
 // HELI ATTACK
 "UK3CB_ION_I_Urban_Orca_Armed_CAS",
-"UK3CB_ION_I_Urban_MELB_AH6M",
+"UK3CB_ION_I_Urban_MELB_AH6M_H",
 //MOTORBIKE
 "UK3CB_ION_I_Urban_M1030"
 ];
