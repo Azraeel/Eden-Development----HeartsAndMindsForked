@@ -12,18 +12,18 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=536;
+		nextID=542;
 	};
 	class Camera
 	{
-		pos[]={1541.5081,149.71935,7927.7583};
+		pos[]={1544.0646,148.80959,7925.8564};
 		dir[]={-0.61843687,-0.43462521,0.65470356};
 		up[]={-0.29845083,0.9006114,0.31595275};
 		aside[]={0.72695446,0,0.68668556};
 	};
 };
 binarizationWanted=0;
-sourceName="Diyala";
+sourceName="HnM";
 addons[]=
 {
 	"A3_Ui_F",
