@@ -513,7 +513,8 @@ btc_construction_array =
             "Wire",
             "Land_LampShabby_F",
             "rhs_pontoon_end_static",
-            "rhs_pontoon_static"
+            "rhs_pontoon_static",
+            "rhs_pontoon_float"
         ],
         [
             //"Static"
