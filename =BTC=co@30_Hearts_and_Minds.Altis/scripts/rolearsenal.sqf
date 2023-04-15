@@ -177,6 +177,11 @@ roleArsenal = {
 "ACE_wirecutter",
 "ItemcTabHCam",
 "tfw_rf3080Item",
+"ACE_DefusalKit",
+"ACE_Cellphone",
+"ACE_ConcertinaWireCoil",
+"ACE_Kestrel4500",
+"ACE_Vector",
 //TERMINAL
 "ItemGPS",
 "Laserbatteries",

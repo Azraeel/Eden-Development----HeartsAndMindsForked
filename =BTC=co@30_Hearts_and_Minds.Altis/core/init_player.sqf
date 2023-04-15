@@ -108,7 +108,8 @@ if ((_UnitRole == "Company Commander @ CROSSROADS")
 		while {true} do
 		{
             // Define the UI number 
-            _myNumber = btc_global_economy; 
+
+            _myNumber = [west] call acex_fortify_fnc_getBudget;
             _CurrentPlayers = count allPlayers; 
             
             // Get the display and create a new control for the HUD item 
