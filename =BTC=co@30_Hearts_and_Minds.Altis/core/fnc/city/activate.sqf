@@ -117,16 +117,16 @@ if (_data_units isNotEqualTo []) then {
 } else {
     // Maximum number of enemy group
     private _numberOfGroup = (switch _type do {
-        case "Hill" : {6};
-        case "VegetationFir" : {6};
-        case "BorderCrossing" : {9};
-        case "NameLocal" : {9};
-        case "StrongpointArea" : {10};
-        case "NameVillage" : {10};
-        case "NameCity" : {16};
-        case "NameCityCapital" : {32};
-        case "Airport" : {32};
-        case "NameMarine" : {6};
+        case "Hill" : {10};
+        case "VegetationFir" : {10};
+        case "BorderCrossing" : {10};
+        case "NameLocal" : {20};
+        case "StrongpointArea" : {20};
+        case "NameVillage" : {20};
+        case "NameCity" : {25};
+        case "NameCityCapital" : {30};
+        case "Airport" : {30};
+        case "NameMarine" : {10};
         default {0};
     });
 
@@ -216,7 +216,7 @@ if (_city getVariable ["spawn_more", false]) then {
         ] call btc_mil_fnc_create_group;
     };
     if (btc_p_veh_armed_spawn_more) then {
-        [[_city, _spawningRadius, 1, btc_type_motorized_armed, 1 + round random 2], btc_city_fnc_send] call btc_delay_fnc_exec;
+        [[_city, _spawningRadius, 1, btc_type_motorized_armed, 1 + round random 3], btc_city_fnc_send] call btc_delay_fnc_exec;
     };
 };
 
