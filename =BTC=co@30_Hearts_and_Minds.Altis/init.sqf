@@ -28,16 +28,16 @@ true
 
 // MASTER CONFIG - ECONOMY
 [west, btc_global_economy, [
-["UK3CB_ION_I_Urban_MELB_AH6M_H", 900] //attack littlebird
-["UK3CB_ION_I_Urban_Orca_Armed_CAS", 900] //attack Orca
-["UK3CB_ION_I_Urban_LR_M2", 400] //Landrover M2
-["UK3CB_ION_I_Urban_M1030", 300] //Dirtbike
-["UK3CB_ION_I_Urban_MaxxPro_M2", 400]  //MRAP M2
-["UK3CB_ION_I_Urban_MaxxPro_MK19", 500]  //MRAP MK19
-["UK3CB_ION_I_Urban_Offroad_M2", 400] //Offroad M2
-["UK3CB_ION_I_Urban_Pickup_M2", 400] //Pickup M2
-["UK3CB_ION_I_Urban_LSV_02_Armed", 400] //ATV M2
-["UK3CB_ION_I_Urban_LSV_02_AT", 500]  //ATV AT
+["UK3CB_ION_I_Urban_MELB_AH6M_H", 900], //attack littlebird
+["UK3CB_ION_I_Urban_Orca_Armed_CAS", 900], //attack Orca
+["UK3CB_ION_I_Urban_LR_M2", 400], //Landrover M2
+["UK3CB_ION_I_Urban_M1030", 300], //Dirtbike
+["UK3CB_ION_I_Urban_MaxxPro_M2", 400],  //MRAP M2
+["UK3CB_ION_I_Urban_MaxxPro_MK19", 500],  //MRAP MK19
+["UK3CB_ION_I_Urban_Offroad_M2", 400], //Offroad M2
+["UK3CB_ION_I_Urban_Pickup_M2", 400], //Pickup M2
+["UK3CB_ION_I_Urban_LSV_02_Armed", 400], //ATV M2
+["UK3CB_ION_I_Urban_LSV_02_AT", 500],  //ATV AT
 ["UK3CB_ION_I_Urban_SUV_Armed", 450] //mini gun SUV
 ]] call acex_fortify_fnc_registerObjects;
 
