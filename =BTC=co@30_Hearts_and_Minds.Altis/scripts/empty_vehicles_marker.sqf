@@ -9,53 +9,89 @@ _vehtomark = [];
 _vehtomark = [
 // EDEN - CONFIG - VEHICLES TO BE MARKED
 // Medical Vehicle
-"UK3CB_ION_I_Urban_Bell412_Medic",
-"UK3CB_ION_B_Urban_Hilux_Ambulance", 
+"UK3CB_GAF_O_Gaz66_Med", 
 
 // Humvee MRAP and SUV unarmed and armed
-"UK3CB_ION_I_Urban_Offroad_Service",
-"UK3CB_ION_I_Urban_MaxxPro_M2",
-"UK3CB_ION_I_Urban_MaxxPro_MK19",
-"UK3CB_ION_I_Urban_LR_M2",
-"UK3CB_ION_I_Urban_Offroad_M2",
-"UK3CB_ION_I_Urban_Pickup_M2",
-"UK3CB_ION_I_Urban_SUV_Armed",
-"UK3CB_ION_I_Urban_LSV_02_Armed",
-"UK3CB_ION_I_Urban_LSV_02_AT",
-"UK3CB_ION_I_Urban_LR_Open",
-"UK3CB_ION_I_Urban_MB4WD_Unarmed",
-"UK3CB_ION_I_Urban_Landcruiser",
-
-// M113
-"UK3CB_ION_I_Urban_M113_supply",
+"UK3CB_FIA_B_Hilux_Igla_Chair",
+"UK3CB_FIA_B_Hilux_Rocket_Arty",
+"UK3CB_FIA_B_Hilux_Mortar",
+"UK3CB_FIA_B_Hilux_Zu23_Front",
+"UK3CB_FIA_B_Hilux_Metis",
+"UK3CB_GAF_B_BRDM2_HQ",
+"UK3CB_GAF_B_BRDM2_UM",
+"UK3CB_GAF_B_BRDM2_ATGM",
+"UK3CB_GAF_B_BRDM2",
+"UK3CB_GAF_B_BTR80a",
+"UK3CB_GAF_B_BTR80",
+"UK3CB_GAF_B_BTR70",
+"UK3CB_GAF_B_MTLB_Cannon",
+"UK3CB_GAF_B_MTLB_KPVT",
+"UK3CB_GAF_B_MTLB_BMP",
+"UK3CB_GAF_B_BMP2K",
+"UK3CB_GAF_B_BRM1K",
+"UK3CB_GAF_B_BMP1",
+"rhs_bmd2m",
+"UK3CB_GAF_O_BMD1P",
+"UK3CB_GAF_O_BMD1R",
+"UK3CB_GAF_O_Gaz66_ZU23",
+"UK3CB_GAF_B_UAZ_AGS30",
+"UK3CB_GAF_B_UAZ_MG",
+"UK3CB_GAF_B_UAZ_Open",
+"UK3CB_GAF_B_UAZ_SPG9",
+"UK3CB_FIA_B_Hilux_Igla_Chair",
+"UK3CB_FIA_B_Hilux_Rocket_Arty",
+"UK3CB_FIA_B_Hilux_Mortar",
+"UK3CB_FIA_B_Hilux_Zu23_Front",
+"UK3CB_FIA_B_Hilux_Metis",
+"UK3CB_GAF_B_BM21",
+"UK3CB_GAF_B_2S1",
+"UK3CB_GAF_O_ZsuTank",
+"UK3CB_GAF_O_2S6M_Tunguska",
+"FA_UAF_Fiona_Ambulance",
+"FA_UAF_BTR4",
+"FA_UAF_BTR3",
+"FA_UAF_Fiona",
+"FA_UAF_Novator",
 
 // REPAIR, REARM, REFUEL, & FLATBED
-"UK3CB_KDF_B_Gaz66_Radio",
-"UK3CB_ION_I_Urban_T810_Recovery",
-"UK3CB_ION_I_Urban_T810_Reammo",
-"UK3CB_ION_I_Urban_T810_Repair",
-"UK3CB_ION_I_Urban_T810_Refuel",
+"UK3CB_GAF_B_Gaz66_Ammo",
+"UK3CB_GAF_B_Gaz66_Covered",
+"UK3CB_GAF_B_Gaz66_Radio",
+"UK3CB_GAF_B_Gaz66_Repair",
+"UK3CB_GAF_B_Ural_Recovery",
 
 // HELI UNARMED/ DOOR GUNS
-"UK3CB_ION_B_Urban_MELB_MH6M",
-"UK3CB_ION_B_Urban_Orca",
+"UK3CB_GAF_B_Mi8",
 
 // HELI CARGO
-"UK3CB_ION_I_Urban_Merlin",
+"UK3CB_GAF_B_Mi8",
+"RHS_Mi24Vt_vvsc",
 
 // HELI ATTACK
-"UK3CB_ION_I_Urban_Orca_Armed_CAS",
-"UK3CB_ION_I_Urban_MELB_AH6M_H",
+"UK3CB_GAF_B_Mi_24P",
+"UK3CB_GAF_B_Mi_24V",
+"UK3CB_GAF_B_Mi8AMTSh",
+"UK3CB_ION_O_Woodland_UH1H_GUNSHIP",
 
-// Armed gunboat and rhib
-"UK3CB_MDF_B_RHIB_Gunboat",
-"UK3CB_FIA_B_Fishing_Boat_SPG9",
+//JETs
+"UK3CB_GAF_B_MIG21_CAS",
+"UK3CB_GAF_B_MIG29S",
+"UK3CB_GAF_B_Su25SM",
 
-//STRYKER
-"rhsusf_stryker_m1132_m2_wd",
-// BRADLEY
+//TANKs
+"UK3CB_GAF_B_T80UK",
+"UK3CB_GAF_B_T72A",
+"UK3CB_GAF_B_T80A",
+"UK3CB_GAF_B_T80BVK",
+"UK3CB_GAF_B_T72BC",
+"UK3CB_GAF_B_T72BA",
+"UK3CB_GAF_B_ZU23",
+
+// Offroad
+"UK3CB_GAF_B_Offroad",
+
 //Motorbike
-"UK3CB_ION_I_Urban_M1030"
+"UK3CB_GAF_B_M1030"
 ];
 
 

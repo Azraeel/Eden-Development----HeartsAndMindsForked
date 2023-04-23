@@ -166,17 +166,18 @@ if (btc_p_respawn_ticketsAtStart >= 0) then {
         [_obj, 100] call ace_cargo_fnc_setSpace;
     }, true, [], true] call CBA_fnc_addClassEventHandler;
 } forEach [
-// M113
-"UK3CB_ION_I_Urban_M113_supply",
+// GAZ
+"UK3CB_GAF_B_Gaz66_Covered",
 // REPAIR, REARM, REFUEL, & FLATBED
-"UK3CB_ION_I_Urban_T810_Recovery",
-"UK3CB_ION_I_Urban_T810_Reammo",
-"UK3CB_ION_I_Urban_T810_Repair",
-"UK3CB_ION_I_Urban_T810_Refuel",
-"UK3CB_KDF_B_Gaz66_Radio",
+"UK3CB_GAF_B_Gaz66_Ammo",
+"UK3CB_GAF_B_Gaz66_Covered",
+"UK3CB_GAF_B_Gaz66_Radio",
+"UK3CB_GAF_B_Gaz66_Repair",
+"UK3CB_GAF_O_Gaz66_Med",
+"UK3CB_GAF_B_Ural_Recovery",
 // HELI CARGO
-"UK3CB_ION_I_Urban_Merlin"
-
+"RHS_Mi24Vt_vvsc",
+"UK3CB_GAF_B_Mi8"
 ];
 
 //Medium
@@ -186,13 +187,18 @@ if (btc_p_respawn_ticketsAtStart >= 0) then {
         [_obj, 50] call ace_cargo_fnc_setSpace;
     }, true, [], true] call CBA_fnc_addClassEventHandler;
 } forEach [
+"UK3CB_GAF_B_BTR80",
+"UK3CB_GAF_B_BTR80a",
+"UK3CB_GAF_B_BMP1",
+"UK3CB_GAF_B_BMP2K",
+"UK3CB_GAF_B_BRDM2",
+"UK3CB_GAF_B_BRM1K",
+"FA_UAF_BTR4",
+"FA_UAF_BTR3",
 // HELI UNARMED/ DOOR GUNS
-"UK3CB_ION_B_Urban_Orca",
-// Medical Vehicle
-"UK3CB_ION_I_Urban_Bell412_Medic",
-// Armed gunboat and rhib
-"UK3CB_MDF_B_RHIB_Gunboat",
-"UK3CB_FIA_B_Fishing_Boat_SPG9"
+"UK3CB_GAF_B_Mi8AMTSh",
+"UK3CB_GAF_B_Mi_24P",
+"UK3CB_GAF_B_Mi_24V"
 ];
 
 //Small 
@@ -202,30 +208,21 @@ if (btc_p_respawn_ticketsAtStart >= 0) then {
         [_obj, 25] call ace_cargo_fnc_setSpace;
     }, true, [], true] call CBA_fnc_addClassEventHandler;
 } forEach [
-// M113 
-// BRADLEY
-// Humvee MRAP and SUV unarmed and armed
-"UK3CB_ION_I_Urban_Offroad_Service",
-"UK3CB_ION_I_Urban_MaxxPro_M2",
-"UK3CB_ION_I_Urban_MaxxPro_MK19",
-"UK3CB_ION_I_Urban_LR_M2",
-"UK3CB_ION_I_Urban_Offroad_M2",
-"UK3CB_ION_I_Urban_Pickup_M2",
-"UK3CB_ION_I_Urban_SUV_Armed",
-"UK3CB_ION_I_Urban_LSV_02_Armed",
-"UK3CB_ION_I_Urban_LSV_02_AT",
-"UK3CB_ION_I_Urban_LR_Open",
-"UK3CB_ION_I_Urban_MB4WD_Unarmed",
-"UK3CB_ION_I_Urban_Landcruiser",
-//MEDICAL vehicle
-"UK3CB_ION_B_Urban_Hilux_Ambulance",
-// HELI UNARMED/ DOOR GUNS
-"UK3CB_ION_B_Urban_MELB_MH6M",
-// HELI ATTACK
-"UK3CB_ION_I_Urban_Orca_Armed_CAS",
-"UK3CB_ION_I_Urban_MELB_AH6M_H",
-//MOTORBIKE
-"UK3CB_ION_I_Urban_M1030"
+// Small Vehicles
+"FA_UAF_Fiona_Ambulance",
+"FA_UAF_Fiona",
+"FA_UAF_Novator",
+"UK3CB_GAF_B_Offroad",
+"UK3CB_GAF_B_UAZ_Open",
+"UK3CB_GAF_B_BRDM2_ATGM",
+"UK3CB_GAF_B_UAZ_AGS30",
+"UK3CB_GAF_B_UAZ_MG",
+"UK3CB_GAF_B_UAZ_SPG9",
+"UK3CB_FIA_B_Hilux_Igla_Chair",
+"UK3CB_FIA_B_Hilux_Rocket_Arty",
+"UK3CB_FIA_B_Hilux_Mortar",
+"UK3CB_FIA_B_Hilux_Zu23_Front",
+"UK3CB_FIA_B_Hilux_Metis"
 ];
 
 

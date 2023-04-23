@@ -61,7 +61,7 @@ x = 0.03
 // Create Scaling Multiplier 
 private _CurrentPlayers = count allPlayers;
 //private _currentPlayers = west countSide allUnits;
-private _PlayerScale = ((_CurrentPlayers * 0.03) max 0.5) min 1;
+private _PlayerScale = ((_CurrentPlayers * 0.03) max 0.5) min 2;
 
 private _data_units = _city getVariable ["data_units", []];
 private _data_animals = _city getVariable ["data_animals", []];
@@ -117,16 +117,16 @@ if (_data_units isNotEqualTo []) then {
 } else {
     // Maximum number of enemy group
     private _numberOfGroup = (switch _type do {
-        case "Hill" : {10};
-        case "VegetationFir" : {10};
-        case "BorderCrossing" : {10};
-        case "NameLocal" : {20};
-        case "StrongpointArea" : {20};
-        case "NameVillage" : {20};
-        case "NameCity" : {25};
-        case "NameCityCapital" : {30};
-        case "Airport" : {30};
-        case "NameMarine" : {10};
+        case "Hill" : {25};
+        case "VegetationFir" : {25};
+        case "BorderCrossing" : {25};
+        case "NameLocal" : {30};
+        case "StrongpointArea" : {30};
+        case "NameVillage" : {30};
+        case "NameCity" : {55};
+        case "NameCityCapital" : {75};
+        case "Airport" : {90};
+        case "NameMarine" : {25};
         default {0};
     });
 
