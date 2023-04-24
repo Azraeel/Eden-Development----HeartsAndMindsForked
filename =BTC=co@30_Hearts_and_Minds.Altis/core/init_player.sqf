@@ -124,14 +124,15 @@ if ((_UnitRole == "Company Commander @ CROSSROADS")
             // Define the position and size of the HUD item 
             _hudX = safeZoneX + 0.4 * safeZoneW; 
             _hudY = safeZoneY; 
-            _hudW = safeZoneW / 5.2;  // width of 1/4 of the HUD 
+            _hudW = safeZoneW / 5.5;  // width of 1/4 of the HUD 
             _hudH = safeZoneH / 40;  // height of 1/6 of the HUD 
             
             // Set the position and size of the HUD item 
             _myHudControl ctrlSetPosition [_hudX, _hudY, _hudW, _hudH]; 
-            _myHudControl ctrlSetBackgroundColor [0, 0, 0, 0.5];  // black background with 50% transparency 
+            //_myHudControl ctrlSetBackgroundColor [0, 0, 0, 0.5];  // black background with 50% transparency 
             _myHudControl ctrlCommit 0; 
-            
+            _myHudControl ctrlSetShadow 2;
+
             // Show the HUD item 
             _myHudControl ctrlShow true;
 
