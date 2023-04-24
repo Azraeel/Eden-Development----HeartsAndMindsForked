@@ -124,7 +124,7 @@ if ((_UnitRole == "Company Commander @ CROSSROADS")
             // Define the position and size of the HUD item 
             _hudX = safeZoneX + 0.4 * safeZoneW; 
             _hudY = safeZoneY; 
-            _hudW = safeZoneW / 5.5;  // width of 1/4 of the HUD 
+            _hudW = safeZoneW / 4;  // width of 1/4 of the HUD 
             _hudH = safeZoneH / 40;  // height of 1/6 of the HUD 
             
             // Set the position and size of the HUD item 
