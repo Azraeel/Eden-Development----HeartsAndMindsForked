@@ -163,15 +163,15 @@ if (_data_units isNotEqualTo []) then {
 
         // Spawn civilians
         private _numberOfCivi = (switch _type do {
-            case "VegetationFir" : {2};
-            case "BorderCrossing" : {0};
-            case "NameLocal" : {6};
+            case "VegetationFir" : {0};
+            case "BorderCrossing" : {2};
+            case "NameLocal" : {5};
             case "StrongpointArea" : {0};
-            case "NameVillage" : {12};
-            case "NameCity" : {20};
-            case "NameCityCapital" : {38};
-            case "Airport" : {12};
-            default {4};
+            case "NameVillage" : {10};
+            case "NameCity" : {10};
+            case "NameCityCapital" : {15};
+            case "Airport" : {10};
+            default {5};
         });
         [+_housesEntrerable, round (_p_civ_group_ratio * _numberOfCivi), _city] call btc_civ_fnc_populate;
     };
